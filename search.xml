@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2026/05/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>为什么我要做这个博客？</title>
+    <url>/2025/05/16/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%EF%BC%9F/</url>
+    <content><![CDATA[<h2 id="🌟-前言"><a href="#🌟-前言" class="headerlink" title="🌟 前言"></a>🌟 前言</h2><p>今天，我终于下定决心，把这个博客搭建起来了。</p>
+<p>说实话，这个决定并不容易。在过去的几个月里，我无数次打开各种博客平台，又无数次关闭。脑子里总有一个声音在说：”你有时间写博客吗？””你能坚持吗？””谁会看呢？”</p>
+<p>但最终，我还是决定开始。</p>
+<hr>
+<h2 id="💭-20年的沉淀，该整理一下了"><a href="#💭-20年的沉淀，该整理一下了" class="headerlink" title="💭 20年的沉淀，该整理一下了"></a>💭 20年的沉淀，该整理一下了</h2><p>2005年，我进入供应链行业，从一个普通的仓库管理员做起。2025年的今天，我在供应链管理领域已经深耕了整整20年。</p>
+<p>这20年里：</p>
+<ul>
+<li>我踩过无数的坑</li>
+<li>我做过无数次错误的决策</li>
+<li>我也积累了大量宝贵的经验</li>
+</ul>
+<p><strong>但这些经验，大部分都在我的脑海里，随着时间的流逝逐渐模糊。</strong></p>
+<p>我开始意识到：如果不把这些东西记录下来，它们终将随着我的离职、退休而消失。这不仅是我个人的损失，也是对后来者的不负责任。</p>
+<hr>
+<h2 id="🎯-为什么是”个人IP总站”？"><a href="#🎯-为什么是”个人IP总站”？" class="headerlink" title="🎯 为什么是”个人IP总站”？"></a>🎯 为什么是”个人IP总站”？</h2><p>在做这个决定之前，我也在想：<strong>为什么要搭建个人IP总站？</strong></p>
+<p>我的理由很简单：</p>
+<h3 id="1-所有平台内容回流"><a href="#1-所有平台内容回流" class="headerlink" title="1. 所有平台内容回流"></a>1. 所有平台内容回流</h3><p>我在微信公众号、知识星球、知乎等平台都有一些内容。但这些平台都是”借来的”，规则随时可能改变。</p>
+<ul>
+<li>微信公众号可能限流</li>
+<li>知识星球可能关闭</li>
+<li>知乎可能改版</li>
+</ul>
+<p><strong>只有自己的网站，是真正属于自己的。</strong></p>
+<h3 id="2-打造个人品牌"><a href="#2-打造个人品牌" class="headerlink" title="2. 打造个人品牌"></a>2. 打造个人品牌</h3><p>在职场20年，我一直在给别人打工。虽然工作做得不错，但始终没有建立起属于自己的”个人品牌”。</p>
+<p><strong>我希望通过这个博客，慢慢打造一个属于自己的个人IP。</strong></p>
+<p>不是要成为什么大V，而是让更多人知道：在这个世界上，有一个叫”walker-yl”的人，在供应链管理和技术应用方面有一些经验和思考。</p>
+<h3 id="3-遇到同频的人"><a href="#3-遇到同频的人" class="headerlink" title="3. 遇到同频的人"></a>3. 遇到同频的人</h3><p>我相信：<strong>你是什么样的人，就会吸引什么样的人。</strong></p>
+<p>通过这个博客，我希望能够遇到：</p>
+<ul>
+<li>同样在供应链领域工作的朋友</li>
+<li>对技术感兴趣的管理者</li>
+<li>愿意终身学习的朋友</li>
+<li>志同道合的同行者</li>
+</ul>
+<hr>
+<h2 id="📝-写什么？"><a href="#📝-写什么？" class="headerlink" title="📝 写什么？"></a>📝 写什么？</h2><p>这个博客会围绕三个核心主题：</p>
+<h3 id="🏭-管理思考"><a href="#🏭-管理思考" class="headerlink" title="🏭 管理思考"></a>🏭 管理思考</h3><p>20年的供应链管理经验，从仓库管理到供应链总监，踩过的坑、总结的方法、提炼的智慧。</p>
+<h3 id="💻-技术分享"><a href="#💻-技术分享" class="headerlink" title="💻 技术分享"></a>💻 技术分享</h3><p>作为一个”半路出家”的技术爱好者，我会分享：</p>
+<ul>
+<li>Python 在办公中的应用</li>
+<li>Excel 高级技巧</li>
+<li>数据分析入门</li>
+<li>各种提效工具</li>
+</ul>
+<p><strong>技术只是工具，管理才是目的。</strong></p>
+<h3 id="🌱-人生随笔"><a href="#🌱-人生随笔" class="headerlink" title="🌱 人生随笔"></a>🌱 人生随笔</h3><p>职业成长、生活感悟、读书笔记。在忙碌的工作之余，也需要一些诗和远方。</p>
+<hr>
+<h2 id="🤝-写给未来的访客"><a href="#🤝-写给未来的访客" class="headerlink" title="🤝 写给未来的访客"></a>🤝 写给未来的访客</h2><p>如果你能看到这篇文章，说明你已经来到了我的博客。</p>
+<p><strong>感谢你的到来！</strong></p>
+<p>我不知道我们是怎么相遇的，但既然你来了，我想告诉你：</p>
+<ul>
+<li>🏭 <strong>如果你也是供应链从业者</strong>：希望我的经验能给你一些启发</li>
+<li>💻 <strong>如果你对技术感兴趣</strong>：欢迎和我一起学习，共同进步</li>
+<li>🌱 <strong>如果你也在思考人生</strong>：希望我们能成为同行的伙伴</li>
+<li>📝 <strong>如果你只是路过</strong>：感谢你花时间看我写的东西</li>
+</ul>
+<hr>
+<h2 id="💡-写在最后"><a href="#💡-写在最后" class="headerlink" title="💡 写在最后"></a>💡 写在最后</h2><p>这个博客的第一篇文章，我写得很艰难。不是因为不知道写什么，而是因为太想把第一篇文章写好了。</p>
+<p>但后来我想通了：<strong>开始比完美更重要。</strong></p>
+<p>这篇文章可能不够好，排版可能不够精美，逻辑可能不够严密。但这是我的起点，我会在这里慢慢成长。</p>
+<p><strong>路虽远，行则将至。事虽难，做则必成。</strong></p>
+<hr>
+<p><strong>从今天起，这里就是我的”个人IP总站”。</strong></p>
+<p><strong>欢迎常来看看。</strong> 👋</p>
+<hr>
+<p><em>—— walker-yl</em><br><em>2025年5月16日</em></p>
+]]></content>
+      <categories>
+        <category>人生随笔</category>
+      </categories>
+      <tags>
+        <tag>个人IP</tag>
+        <tag>供应链</tag>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+</search>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>杨璐</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://walker-yl.github.io/</id>
+  <link href="https://walker-yl.github.io/" rel="alternate"/>
+  <link href="https://walker-yl.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 杨璐</rights>
+  <subtitle>用技术提效，用文字记录管理与人生</subtitle>
+  <title>杨璐 Richard | 供应链管理</title>
+  <updated>2026-05-16T03:18:14.338Z</updated>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <id>https://walker-yl.github.io/2026/05/16/hello-world/</id>
+    <link href="https://walker-yl.github.io/2026/05/16/hello-world/"/>
+    <published>2026-05-16T03:18:14.338Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-05-16T03:18:14.338Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="人生随笔" scheme="https://walker-yl.github.io/categories/%E4%BA%BA%E7%94%9F%E9%9A%8F%E7%AC%94/"/>
+    <category term="个人IP" scheme="https://walker-yl.github.io/tags/%E4%B8%AA%E4%BA%BAIP/"/>
+    <category term="供应链" scheme="https://walker-yl.github.io/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/"/>
+    <category term="随笔" scheme="https://walker-yl.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    <id>https://walker-yl.github.io/2025/05/16/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%EF%BC%9F/</id>
+    <link href="https://walker-yl.github.io/2025/05/16/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%EF%BC%9F/"/>
+    <published>2025-05-16T02:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="🌟-前言"><a href="#🌟-前言" class="headerlink" title="🌟 前言"></a>🌟 前言</h2><p>今天，我终于下定决心，把这个博客搭建起来了。</p>
+<p>说实话，这个决定并不容易。在过去的几个月里，我无数次打开]]>
+    </summary>
+    <title>为什么我要做这个博客？</title>
+    <updated>2025-05-16T02:00:00.000Z</updated>
+  </entry>
+</feed>
