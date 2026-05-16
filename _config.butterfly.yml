@@ -182,11 +182,11 @@ index_style:
 # Layout
 layout:
   index:
-    type: follow_card
+    type: list
   tag:
-    type: flow
+    type: list
   category:
-    type: flow
+    type: list
   page:
     type: page
   post:
