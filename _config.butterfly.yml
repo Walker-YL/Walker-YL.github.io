@@ -1,0 +1,413 @@
+# Butterfly Theme Configuration
+# Docs: https://butterfly.js.org/
+# GitHub: https://github.com/jerryc127/hexo-theme-butterfly
+
+# Site Information
+footer:
+  owner:
+    start_year: 2025
+  custom:
+
+# Navigation
+menu:
+  首页: / || fa-solid fa-home
+  关于我: /about/ || fa-regular fa-user
+  管理思考: /categories/管理思考/ || fa-solid fa-lightbulb
+  技术分享: /categories/技术分享/ || fa-solid fa-laptop-code
+  人生随笔: /categories/人生随笔/ || fa-solid fa-pen-fancy
+  内容归档: /archives/ || fa-solid fa-archive
+  联系我: /contact/ || fa-regular fa-envelope
+
+# Hero Section (Home Page)
+index_page:
+  brand: walker-yl | 20年供应链管理
+  slogan: 用技术提效，用文字记录管理、行业与人生
+  avatar: /img/avatar.jpg
+  introduce: 20年供应链管理老兵，从一线到管理层，深耕供应链优化、团队管理与行业洞察；技术爱好者，终身学习者，在这里分享管理、技术与人生感悟。
+  features:
+    - name: 管理思考
+      icon: fa-solid fa-lightbulb
+      desc: 供应链优化、团队管理、行业洞察
+      link: /categories/管理思考/
+    - name: 技术分享
+      icon: fa-solid fa-laptop-code
+      desc: 效率工具、编程技术、数字化转型
+      link: /categories/技术分享/
+    - name: 人生随笔
+      icon: fa-solid fa-pen-fancy
+      desc: 职业成长、生活感悟、读书笔记
+      link: /categories/人生随笔/
+
+# Social Links
+social:
+  GitHub: https://github.com/Walker-YL || fa-brands fa-github
+  E-mail: mailto:walker-yl@example.com || fa-solid fa-envelope
+
+# Sidebar
+aside:
+  enable: true
+  position: right
+  card_author:
+    enable: true
+    avatar: /img/avatar.jpg
+    name: walker-yl
+    description: 20年供应链管理老兵，技术爱好者，终身学习者
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的博客！在这里分享管理思考、技术心得和人生感悟。
+  card_tags:
+    enable: true
+    limit: 40
+  card_categories:
+    enable: true
+    limit: 8
+  card_archives:
+    enable: true
+    type: monthly
+    format: YYYY-MM
+    depth: 3
+    limit: 5
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    runtime_date: false
+
+# Post Section
+post:
+  author:
+    label:
+      enable: false
+  tag:
+    enable: true
+    prefix: #
+  categories:
+    enable: true
+    prefix: #
+  toc:
+    enable: true
+    auto_number: true
+    expand: false
+  wordcount:
+    enable: true
+    wordcount: true
+    min2read: true
+  img_lantern:
+    enable: true
+  relate_post:
+    enable: true
+    enable_page: true
+    layout: classic
+    placeholder: /img/404.jpg
+    speed: 300
+    num: 5
+  md5:
+    enable: false
+  hash:
+    enable: false
+  copyright:
+    enable: false
+
+# Article
+article:
+  body_top: ''
+  body_bottom: ''
+  create_time: true
+  updated_time:
+    enable: true
+    background: ''
+  license: ''
+  follow:
+    enable: false
+
+# Code Block
+code_block:
+  enable: true
+  copy: true
+  copy_style: mac
+  mac_bracket: true
+  height_limit: false
+  language:
+    enable: false
+  theme:
+    light: obsidian
+    dark: obsidian
+  lang_display: []
+  watermark: false
+  highlight: true
+  highlight_lang: false
+  highlight_copy: true
+  highlight_shrink: false
+  code_lang: 代码块
+
+# Footer Settings
+footer:
+  owner:
+    enable: true
+    since: 2025
+  custom_text: Powered by Hexo & Butterfly
+  runtime: false
+  powered: true
+
+# Inject
+inject:
+  head:
+    - <link rel="preconnect" href="https://fonts.googleapis.com">
+    - <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  bottom:
+    - <script src="https://cdn.jsdelivr.net/npm/font-awesome@6.6.0/js/all.min.js"></script>
+
+# CDN
+cdn:
+  enable: true
+  preconnect: []
+
+# Third Party
+mathjax:
+  enable: false
+
+# Effect Settings
+sparkles:
+  enable: true
+  particles: true
+  quantity: 50
+
+# Light/Dark Mode
+darkmode:
+  enable: true
+  autoChange: 'system'
+  button: true
+  autoMatchCategory: true
+
+# Homepage Style
+index_style:
+  card_style: right-ful
+  index_img: false
+
+# Layout
+layout:
+  index:
+    type: follow_card
+  tag:
+    type: flow
+  category:
+    type: flow
+  page:
+    type: page
+  post:
+    type: posts
+  hide:
+    type: posts
+
+# Lazyload
+lazyload:
+  enable: true
+  className: .lazyload
+  className2: null
+  loadingImg: /img/loading.gif
+  is_load_end: false
+
+# Snackbar
+snackbar:
+  enable: false
+
+# Marked
+marked:
+  enable: false
+  toc: true
+  tocOpen: false
+  tocDepth: 3
+  tocDetect: auto
+
+# Photojemtry
+photofigcaption: false
+
+# Copy Settings
+copy:
+  enable: true
+  addCopyright: false
+
+# Share
+share:
+  enable: false
+
+# Comments
+comments:
+  use: valine
+  text: false
+  lazyload: false
+  count: false
+  card_post_list: false
+
+# Valine
+valine:
+  enable: false
+  appId:
+  appKey:
+  avatar: mp
+  serverURLs:
+  placeholder: 写下你的评论...
+  pageSize: 10
+
+# Word Plugin
+wordcount:
+  enable: true
+
+# Conversion
+open_graph:
+  enable: true
+  options:
+    size: large
+
+# Simplified Display
+index_one_page: home
+index_simplify: true
+post_beautify: true
+
+# Beauty
+beautify:
+  enable: true
+  postMetaArea: true
+  postEndTagArea: true
+  siteMetaArea: true
+  siteNameArea: true
+  siteBrandArea: true
+  navFix: true
+  navScroll: true
+  h_number: 3
+  sticky: 0
+  rightside: true
+  rightsidePc:
+    style: 1
+  rightsideMobile:
+    style: 1
+  toc:
+    enable: true
+    desktop: true
+    mobile: false
+  post_pwenable: true
+
+# Mouse Click Effects
+click_heart:
+  enable: true
+  mobile: false
+
+# Custom Icons
+iconfont:
+  enable: false
+
+# Page Loading Animation
+preloader:
+  enable: false
+
+# PWA
+pwa:
+  enable: false
+
+# Verification
+verification:
+  site_verification:
+  google:
+  baidu:
+
+# Console Debug Mode
+console:
+  enable: false
+
+# Theme Color
+theme_color:
+  enable: true
+  mode: 'auto'
+  main: '#1a365d'
+  main_dark: '#1a365d'
+  main_light: '#1a365d'
+  secondary: '#e67e22'
+  secondary_dark: '#e67e22'
+  secondary_light: '#e67e22'
+  text_color: '#2c3e50'
+  text_color_dark: '#b0b0b0'
+  link_color: '#1a365d'
+  link_color_dark: '#8ab4f8'
+  hover_color: '#e67e22'
+  hover_color_dark: '#f59e0b'
+ hr_color: '#e67e22'
+  hr_color_dark: '#3c4043'
+
+# Font Settings
+font:
+  enable: true
+  font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Microsoft YaHei', sans-serif
+  font-size: 16px
+  english_font: 'Roboto', sans-serif
+  code_font: 'Fira Code', 'Roboto Mono', Consolas, monospace
+
+# Card Border Radius
+card_radius: 12px
+
+# Background Settings
+background: false
+
+# Background CSS
+background_css: |
+  /* 简约背景 */
+  body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  }
+  
+  .layout {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+  }
+
+# Main Layout
+body:
+  main_pad: 40px
+
+# Tablet
+tablet:
+  width: 900px
+
+# Mobile
+mobile:
+  width: 500px
+
+# Note (Bootstrap Callout)
+note:
+  style: flat
+  icons: true
+  border_radius: 12px
+  light_bg_offset: 0
+
+# Timeline
+timeline:
+  up: 'fa-solid fa-chevron-up'
+  down: 'fa-solid fa-chevron-down'
+
+# Tag Plugins
+tag_plugins:
+  fontawesome: true
+
+# Notice
+notice:
+  enable: false
+
+# Error 404 Page
+error_404:
+  enable: true
+  subtitle: '页面找不到啦～'
+  background: /img/404.jpg
+
+# Post Entry Animation
+post_animation:
+  enable: true
+  animation:
+    name: fadeInUp
+    duration: 0.6s
+    delay: 0.1s
+
+# Sticky Posts
+sticky_posts:
+  enable: false
+  top: 0
+  num: 5
