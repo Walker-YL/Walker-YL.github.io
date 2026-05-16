@@ -94,7 +94,7 @@ theme: butterfly
 deploy:
   type: git
   repository: https://github.com/Walker-YL/Walker-YL.github.io.git
-  branch: master
+  branch: gh-pages
 
 # Search
 search:

@@ -2,12 +2,6 @@
 # Docs: https://butterfly.js.org/
 # GitHub: https://github.com/jerryc127/hexo-theme-butterfly
 
-# Site Information
-footer:
-  owner:
-    start_year: 2025
-  custom:
-
 # Navigation
 menu:
   首页: / || fa-solid fa-home
@@ -331,16 +325,16 @@ theme_color:
   link_color_dark: '#8ab4f8'
   hover_color: '#e67e22'
   hover_color_dark: '#f59e0b'
- hr_color: '#e67e22'
+  hr_color: '#e67e22'
   hr_color_dark: '#3c4043'
 
 # Font Settings
 font:
   enable: true
-  font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Microsoft YaHei', sans-serif
+  font-family: '"Noto Serif SC", "Microsoft YaHei", sans-serif'
   font-size: 16px
-  english_font: 'Roboto', sans-serif
-  code_font: 'Fira Code', 'Roboto Mono', Consolas, monospace
+  english_font: '"Roboto", sans-serif'
+  code_font: '"Fira Code", "Roboto Mono", Consolas, monospace'
 
 # Card Border Radius
 card_radius: 12px
