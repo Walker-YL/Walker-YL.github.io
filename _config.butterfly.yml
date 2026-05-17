@@ -32,6 +32,11 @@ index_page:
       desc: 职业成长、生活感悟、读书笔记
       link: /categories/人生随笔/
 
+# Global Avatar
+avatar:
+  img: /img/Avatar.jpg
+  effect: true
+
 # Social Links
 social:
   GitHub: https://github.com/Walker-YL || fa-brands fa-github
@@ -67,341 +72,391 @@ aside:
     last_push_date: true
     runtime_date: false
 
-# Post Section
-post:
-  author:
-    label:
-      enable: false
-  tag:
-    enable: true
-    prefix: #
-  categories:
-    enable: true
-    prefix: #
-  toc:
-    enable: true
-    auto_number: true
-    expand: false
-  wordcount:
-    enable: true
-    wordcount: true
-    min2read: true
-  img_lantern:
-    enable: true
-  relate_post:
-    enable: true
-    enable_page: true
-    layout: classic
-    placeholder: /img/404.jpg
-    speed: 300
-    num: 5
-  md5:
-    enable: false
-  hash:
-    enable: false
-  copyright:
-    enable: false
+# Scroll
+scroll: true
 
-# Article
-article:
-  body_top: ''
-  body_bottom: ''
-  create_time: true
-  updated_time:
-    enable: true
-    background: ''
-  license: ''
-  follow:
-    enable: false
-
-# Code Block
-code_block:
-  enable: true
-  copy: true
-  copy_style: mac
-  mac_bracket: true
-  height_limit: false
-  language:
-    enable: false
-  theme:
-    light: obsidian
-    dark: obsidian
-  lang_display: []
-  watermark: false
-  highlight: true
-  highlight_lang: false
-  highlight_copy: true
-  highlight_shrink: false
-  code_lang: 代码块
-
-# Footer Settings
+# Footer
 footer:
   owner:
     enable: true
     since: 2025
-  custom_text: Powered by Hexo & Butterfly
-  runtime: false
-  powered: true
+  copyright: true
 
-# Inject
-inject:
-  head:
-    - <link rel="preconnect" href="https://fonts.googleapis.com">
-    - <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  bottom:
-    - <script src="https://cdn.jsdelivr.net/npm/font-awesome@6.6.0/js/all.min.js"></script>
+# Main layout
+index_top_img_height: 80
+# page default layout
 
-# CDN
-cdn:
+# Beautify
+beautify:
   enable: true
-  preconnect: []
+  field: post # site/post
+  title-prefix-icon: #f00
+  title-prefix-icon-color: "'#FFF'"
 
-# Third Party
-mathjax:
-  enable: false
-
-# Effect Settings
-sparkles:
+# Theme color
+theme_color:
   enable: true
-  particles: true
-  quantity: 50
+  main: "#1a365d"
+  main_dark: "#1a365d"
+  secondary: "#e67e22"
+  secondary_dark: "#e67e22"
+  text_slogan: "'rgba(255,255,255,0.8)'"
+  link_color: '#ffffff'
+  link_color_dark: '#a4d2fa'
+  bio_color: "'rgba(255,255,255,0.7)'"
+  watermark_color: "'#76bdb9'"
 
-# Light/Dark Mode
+# Dark mode
 darkmode:
   enable: true
-  autoChange: 'system'
-  button: true
-  autoMatchCategory: true
+  # Automatically toggle between dark and light modes
+  #真的有这个需求才打开，默认关闭
+  autoChangeMode: true
 
-# Homepage Style
-index_style:
-  card_style: right-ful
-  index_img: false
-
-# Layout
-layout:
-  index:
-    type: list
-  tag:
-    type: list
-  category:
-    type: list
-  page:
-    type: page
-  post:
-    type: posts
-  hide:
-    type: posts
-
-# Lazyload
-lazyload:
+# Font
+font:
   enable: true
-  className: .lazyload
-  className2: null
-  loadingImg: /img/loading.gif
-  is_load_end: false
+  font-family: "'Georgia', 'Source Han Serif CN', 'Noto Serif SC', serif"
+  code-font: "'Roboto Mono', 'Fira Code', Consolas, Inconsolata, monospace"
 
-# Snackbar
-snackbar:
-  enable: false
+# Card borders
+card_border: true
+card_radius: 12px
 
-# Marked
-marked:
-  enable: false
-  toc: true
-  tocOpen: false
-  tocDepth: 3
-  tocDetect: auto
+# Code
+highlight_theme: true
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
 
-# Photojemtry
-photofigcaption: false
+# Ribbon
+#真的有这个需求才打开，默认关闭
+# ribbon:
+#   enable: true
+#   display: [firstpage, post, page]
+#   opacity: 0.5
+#   colors: ["linear-gradient(135deg, #667eea 0%, #764ba2 100%)", "linear-gradient(135deg, rgba(17, 142, 70, 0.8) 0%, rgba(14, 93, 121, 0.8) 100%)"]
 
-# Copy Settings
-copy:
+# Post
+toc:
   enable: true
-  addCopyright: false
+  heading: h1, h2, h3, h4, h5, h6
+  list_number: true
+  maxdepth: 3
 
-# Share
-share:
+# Read more button
+readmore_btn: true
+
+# article patent
+#真正的文章页面的样式，有三种样式可选
+post_ui: true
+
+# Article sharing
+#是否启用文章分享功能
+sharejs: true
+
+# Share - AddThis
+#AddThis share
+addThis:
   enable: false
 
 # Comments
 comments:
-  use: valine
-  text: false
+  use: # gitalk | utterances | valine |/disqus | livere
+  text: true
   lazyload: false
   count: false
-  card_post_list: false
+
+# Gitalk
+#see https://github.com/gitalk/gitalk
+gitalk:
+  enable: false
+  github_id: ''
+  repo: ''
+  client_id: ''
+  client_secret: ''
+  admin_user: ''
+  distraction_free_mode: true
+
+# Utterances
+#see https://utteranc.es
+utterances:
+  enable: false
+  repo: ''
+  issue_term: pathname
+  label: ''
+  theme: photon
+  crossorigin: anonymous
 
 # Valine
+#see https://github.com/NaiveWang/hexo-valine-admin
 valine:
   enable: false
-  appId:
-  appKey:
-  avatar: mp
-  serverURLs:
-  placeholder: 写下你的评论...
+  appId: ''
+  appKey: ''
+  placeholder: Give me a reason to stay ~
   pageSize: 10
+  visitor: true
+  recordip: true
+  enableQQ: true
+  meta: ['nick', 'mail', 'link']
+  requiredFields: ['nick']
+  bg: "'/img/comment_bg.jpg'"
 
-# Word Plugin
+# Disqus
+disqus:
+  enable: false
+  shortname: ''
+  apikey: ''
+
+# LiveRe
+livedoor:
+  enable: false
+  uid: ''
+
+# Search
+algolia_search:
+  enable: false
+  hits:
+    per_page: 6
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}"
+    hits_stats: "${hits} results found in ${time} ms"
+
+local_search:
+  enable: true
+  labels:
+    input_placeholder: 搜索文章
+    hits_empty: "找不到你想要的 ${query}"
+    hits_stats: "${hits} 个结果，用时 ${time} ms"
+
+# Math
+mathjax: true
+katex: false
+
+# mermaid
+#真的有这个需求才打开，默认关闭
+mermaid:
+  enable: false
+  # built-in or guest
+  theme:
+    light: default
+    dark: dark
+
+# Watermark
+#真的有这个需求才打开，默认关闭
+watermark:
+  enable: false
+  content: "'walker-yl.github.io'"
+  size: 18
+  color: "'#76bdb9'"
+  opacity: 0.3
+  margin: 15
+
+# Lightbox
+fancybox: true
+
+# Tag Plugins
+note:
+  enable: true
+  background: true
+  border: true
+  icon: true
+  elevate: true
+  list:
+    - tag: p
+      class: primary
+      icon: bell
+    - tag: p
+      class: info
+      icon: info-circle
+    - tag: p
+      class: success
+      icon: check-circle
+    - tag: p
+      class: warning
+      icon: exclamation-triangle
+    - tag: p
+      class: danger
+      icon: times-circle
+    - tag: p
+      class: default
+      icon: leaf
+
+# related_post
+related_post:
+  enable: true
+  status: true
+  date_type: created
+  limit: 5
+  id: false
+
+# Post Edit
+#需要在博客的source文件夹下创建editfolder仓库
+#最好填写完整链接
+post_edit:
+  enable: false
+  url: https://github.com/username/repo-name/edit/source/
+
+# Reading progress bar
+#need to open post_ui first
+reading_progress:
+  enable: true
+  color: "'#e67e22'"
+  height: '3px'
+
+# WordCount
+#need to open post_ui first
 wordcount:
   enable: true
+  post_wordcount: true
+  min2read: true
+  text_count: true
 
-# Conversion
-open_graph:
-  enable: true
-  options:
-    size: large
-
-# Simplified Display
-index_one_page: home
-index_simplify: true
-post_beautify: true
-
-# Beauty
-beautify:
-  enable: true
-  postMetaArea: true
-  postEndTagArea: true
-  siteMetaArea: true
-  siteNameArea: true
-  siteBrandArea: true
-  navFix: true
-  navScroll: true
-  h_number: 3
-  sticky: 0
-  rightside: true
-  rightsidePc:
-    style: 1
-  rightsideMobile:
-    style: 1
-  toc:
-    enable: true
-    desktop: true
-    mobile: false
-  post_pwenable: true
-
-# Mouse Click Effects
-click_heart:
-  enable: true
-  mobile: false
-
-# Custom Icons
-iconfont:
+# Music
+#音乐播放
+music:
   enable: false
+  id: 7817267022
+  server: netease
+  type: song
+  auto: null
+  mutex: true
+  limit: 99999
+  unlimit: false
+  listmaxheight: 340px
+  preload: none
+  theme: "'#335eea'"
+  mode: circulation
+  listfolding: true
+  storageName: hexo-musicbox
 
-# Page Loading Animation
-preloader:
+# 404 page
+#need to close the `post_ui` first
+#404页面
+#需要在根目录的source文件下创建404.md
+#最好使用本地图片
+error_404:
   enable: false
-
-# PWA
-pwa:
-  enable: false
+  bg: "/img/404_bg.jpg"
+  title: "'页面没有找到'"
+  subtitle: "'请检查链接是否正确，或搜索其他内容'"
 
 # Verification
 verification:
   site_verification:
-  google:
-  baidu:
+  google: ''
+  baidu: ''
 
-# Console Debug Mode
-console:
+# ad
+google_adsense:
+  enable: false
+  auto_ads: true
+  js: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+  js_client: 'ca-pub-xxxx'
+  enable_page_level_ads: true
+  first_paragraph_ads: false
+
+# Web Analytics
+google_analytics: ''
+baidu_analytics: ''
+
+# RSS
+feed:
+  enable: false
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub: ''
+  content: ''
+  content_limit: 140
+  content_limit_delim: ''
+  order_by: -date
+  tag_dir: tags
+  category_dir: categories
+  file_name: atom.xml
+  autodiscovery: true
+  template:
+
+# Sitemap
+sitemap:
+  enable: false
+  path: sitemap.xml
+
+# Github-card
+github-card:
   enable: false
 
-# Theme Color
-theme_color:
+# Shortcode and escape
+#有以下三个破解版地图，不想用可以删掉
+maplinks:
+  enable: false
+  amap_key: ''
+  amap_uiKey: ''
+
+# NoticeOutdate
+noticeOutdate:
   enable: true
-  mode: 'auto'
-  main: '#1a365d'
-  main_dark: '#1a365d'
-  main_light: '#1a365d'
-  secondary: '#e67e22'
-  secondary_dark: '#e67e22'
-  secondary_light: '#e67e22'
-  text_color: '#2c3e50'
-  text_color_dark: '#b0b0b0'
-  link_color: '#1a365d'
-  link_color_dark: '#8ab4f8'
-  hover_color: '#e67e22'
-  hover_color_dark: '#f59e0b'
-  hr_color: '#e67e22'
-  hr_color_dark: '#3c4043'
-
-# Font Settings
-font:
-  enable: true
-  font-family: '"Noto Serif SC", "Microsoft YaHei", sans-serif'
-  font-size: 16px
-  english_font: '"Roboto", sans-serif'
-  code_font: '"Fira Code", "Roboto Mono", Consolas, monospace'
-
-# Card Border Radius
-card_radius: 12px
-
-# Background Settings
-background: false
-
-# Background CSS
-background_css: |
-  /* 简约背景 */
-  body {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  }
-  
-  .layout {
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
-  }
-
-# Main Layout
-body:
-  main_pad: 40px
-
-# Tablet
-tablet:
-  width: 900px
-
-# Mobile
-mobile:
-  width: 500px
-
-# Note (Bootstrap Callout)
-note:
   style: flat
-  icons: true
-  border_radius: 12px
-  light_bg_offset: 0
+  limit_day: 365
+  position: top
+  message_prev: It has been
+  message_next: days since the last update, the content of the article may be outdated.
 
-# Timeline
-timeline:
-  up: 'fa-solid fa-chevron-up'
-  down: 'fa-solid fa-chevron-down'
+# Copy Settings
+copy:
+  enable: true
+  license: "'CC BY-NC-SA 4.0'"
 
-# Tag Plugins
-tag_plugins:
-  fontawesome: true
+# timeago
+#文章时间显示为多久之前
+timeago:
+  enable: false
+  post_gallery: true
 
-# Notice
-notice:
+# Flickr
+flickr:
   enable: false
 
-# Error 404 Page
-error_404:
-  enable: true
-  subtitle: '页面找不到啦～'
-  background: /img/404.jpg
-
-# Post Entry Animation
-post_animation:
-  enable: true
-  animation:
-    name: fadeInUp
-    duration: 0.6s
-    delay: 0.1s
-
-# Sticky Posts
-sticky_posts:
+# Aplayer
+#需要在文章中插入<!--more-->
+aplayer:
   enable: false
-  top: 0
-  num: 5
+  autoplay: true
+  volume: 0.7
+  mini: false
+  meting: true
+  fixed: false
+  loop: all
+  order: random
+  preload: auto
+  theme: "'#335eea'"
+  songs:
+    - title: 光年之外
+      author: G.E.M. 邓紫棋
+      url: https://service-5u8j5wdr1252708-1253444277.tcloudbaseapp.com/resume-mp3/1.mp3
+      pic: https://p2.music.126.net/1qsutch6w1kM2NIXu9eXRA==/109951164404877751.jpg
+
+# Footer Settings
+# --------------------------------------
+# 1.  ICP备案信息
+#    展示在站点Footer的ICP备案信息
+beian:
+  enable: false
+  icp: ''
+
+# Creative Commons
+# 展示在站点Footer的Creative Commons信息
+creative_commons:
+  enable: false
+  license: CC BY-NC-SA 4.0
+  icon: by-nc-sa
+  permalink: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# Site uptime
+uptime:
+  enable: false
+  method: 1
+  start: '2020-01-01'
+  Chinese: false
