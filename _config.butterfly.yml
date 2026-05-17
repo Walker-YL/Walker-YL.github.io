@@ -32,6 +32,11 @@ index_page:
       desc: 职业成长、生活感悟、读书笔记
       link: /categories/人生随笔/
 
+# Global Avatar Configuration
+avatar:
+  enable: true
+  img: /img/Avatar.jpg
+
 # Social Links
 social:
   GitHub: https://github.com/Walker-YL || fa-brands fa-github
