@@ -83,7 +83,7 @@ footer:
   copyright: true
 
 # Main layout
-index_top_img_height: 80
+# index_top_img_height 必须填写带单位的值（如 80vh），纯数字会导致主题样式编译失败；注释即使用默认 100vh
 # page default layout
 
 # Beautify
