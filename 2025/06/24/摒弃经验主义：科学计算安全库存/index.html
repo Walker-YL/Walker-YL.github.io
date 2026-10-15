@@ -1,0 +1,309 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>摒弃经验主义：科学计算安全库存 | 杨璐 Richard | 供应链管理</title><meta name="author" content="杨璐"><meta name="copyright" content="杨璐"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="过去，依赖 “拍脑袋” 设定安全库存的方式，如同蒙眼驾车，虽能短暂维持运营，却始终潜藏着巨大风险。在市场需求瞬息万变、供应链波动加剧的当下，唯有引入科学计算方法，才能为企业筑起一道坚固的库存防线，实现降本增效与持续发展。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="摒弃经验主义：科学计算安全库存">
+<meta property="og:url" content="https://walker-yl.github.io/2025/06/24/%E6%91%92%E5%BC%83%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/">
+<meta property="og:site_name" content="杨璐 Richard | 供应链管理">
+<meta property="og:description" content="过去，依赖 “拍脑袋” 设定安全库存的方式，如同蒙眼驾车，虽能短暂维持运营，却始终潜藏着巨大风险。在市场需求瞬息万变、供应链波动加剧的当下，唯有引入科学计算方法，才能为企业筑起一道坚固的库存防线，实现降本增效与持续发展。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://walker-yl.github.io/img/Avatar.jpg">
+<meta property="article:published_time" content="2025-06-24T01:00:00.000Z">
+<meta property="article:modified_time" content="2025-06-24T01:00:00.000Z">
+<meta property="article:author" content="杨璐">
+<meta property="article:tag" content="安全库存">
+<meta property="article:tag" content="库存管理">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://walker-yl.github.io/img/Avatar.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "摒弃经验主义：科学计算安全库存",
+  "url": "https://walker-yl.github.io/2025/06/24/%E6%91%92%E5%BC%83%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/",
+  "image": "https://walker-yl.github.io/img/Avatar.jpg",
+  "datePublished": "2025-06-24T01:00:00.000Z",
+  "dateModified": "2025-06-24T01:00:00.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "杨璐",
+      "url": "https://walker-yl.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://walker-yl.github.io/2025/06/24/%E6%91%92%E5%BC%83%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '摒弃经验主义：科学计算安全库存',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="杨璐 Richard | 供应链管理" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/Avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">43</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-solid fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa-regular fa-user"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E7%AE%A1%E7%90%86%E6%80%9D%E8%80%83/"><i class="fa-fw fa-solid fa-lightbulb"></i><span> 管理思考</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"><i class="fa-fw fa-solid fa-laptop-code"></i><span> 技术分享</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E4%BA%BA%E7%94%9F%E9%9A%8F%E7%AC%94/"><i class="fa-fw fa-solid fa-pen-fancy"></i><span> 人生随笔</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa-solid fa-archive"></i><span> 内容归档</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fa-regular fa-envelope"></i><span> 联系我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">杨璐 Richard | 供应链管理</span></a><a class="nav-page-title" href="/"><span class="site-name">摒弃经验主义：科学计算安全库存</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-solid fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa-regular fa-user"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E7%AE%A1%E7%90%86%E6%80%9D%E8%80%83/"><i class="fa-fw fa-solid fa-lightbulb"></i><span> 管理思考</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"><i class="fa-fw fa-solid fa-laptop-code"></i><span> 技术分享</span></a></div><div class="menus_item"><a class="site-page" href="/categories/%E4%BA%BA%E7%94%9F%E9%9A%8F%E7%AC%94/"><i class="fa-fw fa-solid fa-pen-fancy"></i><span> 人生随笔</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa-solid fa-archive"></i><span> 内容归档</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fa-regular fa-envelope"></i><span> 联系我</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">摒弃经验主义：科学计算安全库存</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-06-24T01:00:00.000Z" title="发表于 2025-06-24 09:00:00">2025-06-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-06-24T01:00:00.000Z" title="更新于 2025-06-24 09:00:00">2025-06-24</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">技术分享</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>6分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><div id="post-outdate-notice" data="{&quot;limitDay&quot;:365,&quot;messagePrev&quot;:&quot;It has been&quot;,&quot;messageNext&quot;:&quot;days since the last update, the content of the article may be outdated.&quot;,&quot;postUpdate&quot;:&quot;2025-06-24 09:00:00&quot;}" hidden></div><p>过去，依赖 “拍脑袋” 设定安全库存的方式，如同蒙眼驾车，虽能短暂维持运营，却始终潜藏着巨大风险。在市场需求瞬息万变、供应链波动加剧的当下，唯有引入科学计算方法，才能为企业筑起一道坚固的库存防线，实现降本增效与持续发展。</p>
+<span id="more"></span>
+
+<h2 id="一、安全库存：企业运营的-“稳定器”"><a href="#一、安全库存：企业运营的-“稳定器”" class="headerlink" title="一、安全库存：企业运营的 “稳定器”"></a>一、安全库存：企业运营的 “稳定器”</h2><p>安全库存是企业为应对需求波动、供应中断等不确定性因素，特意储备的额外库存量，堪称企业运营的 “稳定器”。在消费市场，潮流更迭速度极快，某知名美妆品牌推出的限量款口红，因社交媒体的热度发酵，实际销量远超预期。若没有安全库存作为缓冲，缺货不仅会让企业错失销售良机，还可能导致客户忠诚度下降。而在生产制造领域，芯片制造商常常因全球供应链的突发状况，面临原材料供应不足的难题。此时，安全库存就能保障生产线的正常运转，避免因停工造成的巨大损失。</p>
+<h2 id="二、“拍脑袋”-决策：库存管理的-“隐形陷阱”"><a href="#二、“拍脑袋”-决策：库存管理的-“隐形陷阱”" class="headerlink" title="二、“拍脑袋” 决策：库存管理的 “隐形陷阱”"></a>二、“拍脑袋” 决策：库存管理的 “隐形陷阱”</h2><p>仅凭经验和直觉设定安全库存，看似便捷，实则隐患重重。这种缺乏数据支撑的决策方式，容易使库存水平与实际需求严重脱节。经验丰富的管理者或许能凭借过往积累做出相对合理的判断，但当市场环境发生突变，如经济形势下滑、政策法规调整，经验的局限性便暴露无遗。而对于经验不足的管理者，“拍脑袋” 决策往往导致库存积压，占用大量资金与仓储空间，或是频繁缺货，损害企业信誉与市场竞争力。更严重的是，这种不科学的决策方式掩盖了供应链中的深层次问题，让企业难以发现需求预测不准确、供应商管理漏洞等根源性弊端。</p>
+<h2 id="三、科学计算：解锁库存管理的-“精准密码”"><a href="#三、科学计算：解锁库存管理的-“精准密码”" class="headerlink" title="三、科学计算：解锁库存管理的 “精准密码”"></a>三、科学计算：解锁库存管理的 “精准密码”</h2><p>科学的安全库存计算方法，为企业库存管理提供了精准的解决方案，主要涵盖<strong>统计学方法</strong> 和<strong>数学模型法</strong> 。</p>
+<h2 id="（一）统计学方法"><a href="#（一）统计学方法" class="headerlink" title="（一）统计学方法"></a>（一）统计学方法</h2><ol>
+<li><strong>基于标准差的计算</strong></li>
+</ol>
+<p>基于标准差的计算方式，以历史销售数据为基础，通过衡量数据离散程度评估需求不确定性。标准差越大，表明需求波动越剧烈，所需安全库存越高。其公式为安全库存 &#x3D; Z × σ × √L，其中 Z 对应企业设定服务水平的标准正态分布分位数，σ 是需求标准差，L 为订货提前期。</p>
+<p>以某母婴用品店为例，其统计某款婴儿奶粉过去 10 周的周销售量分别为 120、130、115、125、135、110、122、132、118、128 罐。</p>
+<p><strong>步骤一：计算平均周销售量</strong></p>
+<p>根据平均销售量公式（其中 xi 为各周销售量，n 为周数）可得：</p>
+<p><img src="/images/toutiao/7519401554257822244/01.gif"></p>
+<p>罐。</p>
+<p><strong>步骤二：计算需求的标准差</strong></p>
+<p>根据标准差公式：</p>
+<p><img src="/images/toutiao/7519401554257822244/02.gif"></p>
+<p>分别计算各周数据与均值差值的平方：</p>
+<p><img src="/images/toutiao/7519401554257822244/03.gif"></p>
+<p><img src="/images/toutiao/7519401554257822244/04.gif"></p>
+<p><img src="/images/toutiao/7519401554257822244/05.gif"></p>
+<p><img src="/images/toutiao/7519401554257822244/06.gif"></p>
+<p><img src="/images/toutiao/7519401554257822244/07.gif"></p>
+<p><img src="/images/toutiao/7519401554257822244/08.gif"></p>
+<p><img src="/images/toutiao/7519401554257822244/09.gif"></p>
+<p><img src="/images/toutiao/7519401554257822244/10.gif"></p>
+<p><img src="/images/toutiao/7519401554257822244/11.gif"></p>
+<p><img src="/images/toutiao/7519401554257822244/12.gif"></p>
+<p>将上述结果代入标准差公式可得：</p>
+<p><img src="/images/toutiao/7519401554257822244/13.gif"></p>
+<p>罐 。</p>
+<p><strong>步骤三：确定 Z 值</strong></p>
+<p>标准正态分布是一种特殊的正态分布，其均值为 0，标准差为 1，通常用 N(0, 1) 表示。在安全库存计算中，Z 值代表着在标准正态分布曲线上，对应服务水平的分位点距离均值的标准差倍数。</p>
+<p>以下是部分标准正态分布表：</p>
+<table>
+<thead>
+<tr>
+<th>累积概率</th>
+<th>Z 值</th>
+<th>累积概率</th>
+<th>Z 值</th>
+<th>累积概率</th>
+<th>Z 值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0.9000</td>
+<td>1.28</td>
+<td>0.9500</td>
+<td>1.645</td>
+<td>0.9800</td>
+<td>2.05</td>
+</tr>
+<tr>
+<td>0.9015</td>
+<td>1.29</td>
+<td>0.9515</td>
+<td>1.66</td>
+<td>0.9805</td>
+<td>2.06</td>
+</tr>
+<tr>
+<td>0.9032</td>
+<td>1.30</td>
+<td>0.9535</td>
+<td>1.68</td>
+<td>0.9812</td>
+<td>2.07</td>
+</tr>
+<tr>
+<td>0.9049</td>
+<td>1.31</td>
+<td>0.9554</td>
+<td>1.70</td>
+<td>0.9817</td>
+<td>2.08</td>
+</tr>
+<tr>
+<td>0.9066</td>
+<td>1.32</td>
+<td>0.9573</td>
+<td>1.72</td>
+<td>0.9826</td>
+<td>2.09</td>
+</tr>
+<tr>
+<td>0.9082</td>
+<td>1.33</td>
+<td>0.9591</td>
+<td>1.74</td>
+<td>0.9830</td>
+<td>2.10</td>
+</tr>
+</tbody></table>
+<p>若该店期望服务水平为 95%，通过标准正态分布表查得 Z 值约为 1.645，订货提前期为 2 周。</p>
+<p><strong>步骤四：计算安全库存</strong></p>
+<p>将 Z、σ、L 代入安全库存计算公式：</p>
+<p><img src="/images/toutiao/7519401554257822244/14.gif"></p>
+<p>可得：</p>
+<p><img src="/images/toutiao/7519401554257822244/15.gif"></p>
+<p>罐 。</p>
+<ol>
+<li><p><strong>移动平均法</strong></p>
+<ul>
+<li><strong>简单移动平均法</strong> ：某文具店统计过去 3 个月某款笔记本的月销售量分别为 180、200、220 本，以 3 个月为移动平均周期。根据移动平均公式：</li>
+</ul>
+</li>
+</ol>
+<p><img src="/images/toutiao/7519401554257822244/16.gif"></p>
+<p>下一个月的预测销售量：</p>
+<p><img src="/images/toutiao/7519401554257822244/17.gif"></p>
+<p>本。</p>
+<p>若该文具店根据历史数据评估出需求波动标准差为 12 本，期望服务水平为 90%（通过标准正态分布表查得 Z 值约为 1.28），订货提前期为 1 个月，则安全库存 &#x3D;</p>
+<p><img src="/images/toutiao/7519401554257822244/18.gif"></p>
+<p>本。</p>
+<pre><code>- **加权移动平均法** ：同样以该文具店为例，若赋予最近一个月、次近一个月、最远一个月的权重分别为 0.5、0.3、0.2。则下一个月的预测销售量：
+</code></pre>
+<p><img src="/images/toutiao/7519401554257822244/19.gif"></p>
+<p>本。后续根据需求波动和服务水平计算安全库存的方式与简单移动平均法类似。</p>
+<h2 id="（二）数学模型法"><a href="#（二）数学模型法" class="headerlink" title="（二）数学模型法"></a>（二）数学模型法</h2><ol>
+<li><strong>经济订货量模型（EOQ）</strong></li>
+</ol>
+<p>经济订货量模型致力于平衡订货成本与持有成本，以确定最优订货数量。其公式推导基于年需求量 D、每次订货成本 S、单位商品年持有成本 H 和订货量 Q，通过对总成本公式求导得出经济订货量 Q&#x3D;√(2DS&#x2F;H)。某电子元件生产商每年需采购特定元件 5000 个，每次订货成本 200 元，单个元件年持有成本 50 元，则经济订货量：</p>
+<p><img src="/images/toutiao/7519401554257822244/20.gif"></p>
+<p>个，再结合需求波动与服务水平计算安全库存。</p>
+<ol>
+<li><strong>物料需求计划（MRP）</strong></li>
+</ol>
+<p>物料需求计划依据产品结构和生产计划，将最终产品需求分解为零部件和原材料需求，综合现有库存、在途库存和生产周期等因素，确定各物料净需求及安全库存。例如汽车组装厂计划生产 500 辆汽车，每辆需 4 个轮胎，现有轮胎库存 80 个，在途 20 个，轮胎生产周期 1 周，毛需求为 500×4 &#x3D; 2000 个，净需求 &#x3D; 2000 - 80 - 20 &#x3D; 1900 个，若设定 5% 安全库存，则安全库存为 1900×5% &#x3D; 95 个。</p>
+<ol>
+<li><p><strong>定量订货模型与定期订货模型</strong></p>
+<ul>
+<li><p><strong>定量订货模型</strong> ：某便利店某种饮料平均日销售量为 15 瓶，订货提前期为 4 天，安全库存为 10 瓶。根据公式 ROP &#x3D; d × L + SS（d 平均日需求量，L 为订货提前期，SS 为安全库存），则订货点 ROP &#x3D; 15×4 + 10 &#x3D; 70 瓶。当库存剩余 70 瓶时，就订购固定数量（如 100 瓶）的饮料。</p>
+</li>
+<li><p><strong>定期订货模型</strong> ：某服装店每 10 天检查一次库存，某种款式服装平均日销售量为 8 件，订货提前期为 3 天，安全库存为 15 件。根据公式目标库存量 &#x3D; (T + L) × d + SS（T 为订货周期，L 订货提前期，d 为平均日需求量，SS 为安全库存），则目标库存量 &#x3D; (10 + 3)×8 + 15 &#x3D; 104 + 15 &#x3D; 119 件。每次订货量 &#x3D; 目标库存量 - 现有库存量 - 在途库存量。</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>科学计算安全库存绝非纸上谈兵，而是企业降本增效、提升竞争力的关键利器。它让库存管理从模糊的经验判断走向精准的数据驱动，为企业应对市场挑战提供坚实保障。未来，随着大数据、人工智能等技术的发展，安全库存计算将更加智能、高效。</p>
+<hr>
+<blockquote>
+<p>本文首发于<a target="_blank" rel="noopener" href="https://www.toutiao.com/article/7519401554257822244/">今日头条</a>，个人站仅作作品存档与交流，著作权归作者本人所有。</p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://walker-yl.github.io">杨璐</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://walker-yl.github.io/2025/06/24/%E6%91%92%E5%BC%83%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/">https://walker-yl.github.io/2025/06/24/%E6%91%92%E5%BC%83%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://walker-yl.github.io" target="_blank">杨璐 Richard | 供应链管理</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/">库存管理</a><a class="post-meta__tags" href="/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/">安全库存</a></div><div class="post-share"><div class="social-share" data-image="/img/Avatar.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/06/25/%E5%A6%82%E4%BD%95%E7%B2%BE%E5%87%86%E5%88%A4%E6%96%AD%E4%BE%9B%E5%BA%94%E5%95%86%E6%8A%A5%E4%BB%B7%E7%9A%84%E5%90%88%E7%90%86%E6%80%A7%EF%BC%9F%E5%A4%9A%E7%BB%B4%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E6%93%8D%E6%8C%87%E5%8D%97/" title="如何精准判断供应商报价的合理性？多维分析与实操指南"><img class="cover" src="/images/toutiao/7519683380112359970/01.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">如何精准判断供应商报价的合理性？多维分析与实操指南</div></div><div class="info-2"><div class="info-item-1">在采购管理中，判断供应商报价是否合理是一项兼具专业性与策略性的工作。本文将从成本构成分析、市场行情比对、供应商资质评估等多个维度，结合具体方法与实操案例，探讨如何科学判断供应商报价的合理性。一、深入剖析成本构成，挖掘价格本质   判断供应商报价的第一步，是对其成本构成进行细致拆解。供应商的报价通常包含直接材料、直接人工、制造费用、管理费用及利润等要素，通过分析各部分占比，可识别价格异常点。  要求供应商提供成本明细  采购方应要求供应商提供详细的成本清单，明确列出直接材料（Direct Material）、直接人工（Direct Labor）、制造费用（Manufacturing Overhead）等项目的具体金额。例如，某供应商为企业提供注塑件，报价中材料成本占比高达70%，但同期市场上同类原材料价格已下跌15%，此时需警惕供应商存在虚高成本的可能。  对比历史成本数据  参考企业过往同类产品的采购成本，并结合原材料价格波动、工艺变化等因素进行动态分析。若供应商更换材料规格（如使用更低等级的钢材），需评估其对产品质量的影响，避免因低价牺牲性能。 二、锚定市场行情，建立比价参照系...</div></div></div></a><a class="pagination-related" href="/2025/06/23/%E7%B2%BE%E7%9B%8A%E7%94%9F%E4%BA%A7%E4%B8%AD%E7%9A%84%E7%9C%8B%E6%9D%BFKANBAN%EF%BC%9A%E4%BB%8E%E4%BC%A0%E7%BB%9F%E5%88%B0%E7%8E%B0%E4%BB%A3%E7%9A%84%E5%8F%98%E9%9D%A9%E4%B8%8E%E5%AE%9E%E8%B7%B5/" title="精益生产中的看板KANBAN：从传统到现代的变革与实践"><img class="cover" src="/images/toutiao/7519014440822440489/01.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">精益生产中的看板KANBAN：从传统到现代的变革与实践</div></div><div class="info-2"><div class="info-item-1">在精益生产体系中，看板如同生产线上的 “神经中枢”，以直观、高效的方式协调着生产流程，消除浪费、提升效率。从早期简单的纸质卡片，到如今实时交互的电子系统，看板技术不断迭代，但其核心宗旨始终围绕着 “按需生产”。接下来，我们将通过实际案例，深入了解传统物流看板与现代化电子看板的运作逻辑与实施过程，特别是看板如何在生产消耗和物流仓库之间循环流转。   一、传统物流看板：精益生产的 “初代指挥家”概念解析传统物流看板是一种基于实物卡片的可视化管理工具，通过卡片上的信息传递生产指令与物料需求，以 “拉动式生产” 替代传统的 “推动式生产”。简单来说，当下游工序需要物料或产品时，会将看板传递给上游工序，上游工序根据看板要求进行生产和配送，从而实现各环节的精准衔接。 看板实施过程以丰田汽车早期在发动机车间与总装车间之间应用的看板系统为例，其详细实施过程如下：  看板设计与分类 ：传统看板通常分为生产看板和取货看板。生产看板标明生产数量、时间、方法、顺序以及运送目的地等信息；取货看板标明物料名称、数量、供方工作地、需方工作地等信息。在丰田的案例中，生产看板用于指示发动机车间生产特定型号和数量的...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2025/06/10/%E5%BA%93%E5%AD%98%E5%91%A8%E8%BD%AC%E5%A4%A9%E6%95%B0%E5%92%8C%E5%BA%93%E5%AD%98%E5%91%A8%E8%BD%AC%E7%8E%87/" title="库存周转天数和库存周转率"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-10</div><div class="info-item-2">库存周转天数和库存周转率</div></div><div class="info-2"><div class="info-item-1">定义 ：反映特定时期内存货转化为销售的次数。   计算公式 ：库存周转率&#x3D;销售成本&#x2F;平均库存余额  销售成本 ：计算期内所有售出产品的总成本COGS&#x3D;cost of goods sold（非销售额）。  平均库存余额 ：平均库存&#x3D;(期初库存金额+期末库存金额)&#x2F;2   示例 ：年度销售成本 500 万元，年初库存 100 万元，年末库存 120 万元： 平均库存&#x3D;(100+120)&#x2F;2&#x3D;110万元 周转率&#x3D;500&#x2F;110≈4.55次&#x2F;年  二、库存周转天数（Days Inventory Outstanding）DIO定义 ：存货从入库到售出所需的平均天数。 计算公式 ： 库存周转天数&#x3D;365&#x2F;库存周转率, 或周转天数&#x3D;(平均库存余额×365)&#x2F;销售成本 示例 ：沿用上述数据： 周转天数&#x3D;365&#x2F;4.55≈80.2天或(110×365)&#x2F;500&#x3D;80.3天  三、关键注意事项 分子必须用销售成本...</div></div></div></a><a class="pagination-related" href="/2025/06/23/%E2%80%9C%E9%99%8D%E4%BD%8E%E5%BA%93%E5%AD%98%E2%80%9D%E7%9A%84%E5%89%8D%E6%8F%90%E2%80%94%E2%80%94%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96%E6%88%90%E6%9C%AC%E6%94%B6%E7%9B%8A%E5%AF%B9%E6%AF%94/" title="“降低库存”的前提——库存优化成本收益对比"><img class="cover" src="/images/toutiao/7518974742209036854/01.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-06-23</div><div class="info-item-2">“降低库存”的前提——库存优化成本收益对比</div></div><div class="info-2"><div class="info-item-1">在企业供应链管理与财务管理的交叉领域中，库存优化决策始终是管理层关注的核心议题。库存作为企业流动资产的重要组成部分，其规模的调整涉及复杂的成本效益分析 —— 压缩库存虽能释放资金、降低资金占用成本，但同时可能引发采购、运输、系统升级等额外支出。此外，客户需求稳定性、市场需求持续性以及供应商供货表现等外部因素，也会对库存决策产生关键影响。   如何通过科学的成本对比，综合考量多重因素，做出符合企业利益的决策？本文将结合专业分析框架与实战案例，为您深度解析。 一、核心成本要素解析在库存优化决策中，核心需对比节约的库存资金成本 与减少库存的额外投入成本 两大维度：    成本类型 定义与计算逻辑 关键影响因素    节约的库存资金成本 库存规模缩减后，释放资金产生的机会成本节约，计算公式：节约资金成本 &#x3D;（原库存金额 - 目标库存金额）× 资金年化利率 库存减少金额、资金年化利率   减少库存的额外投入成本 为达成库存优化目标，新增的采购成本、运输成本、系统投入、人力成本等总和 采购策略调整幅度、物流方案变更、技术系统选型、供应商协同难度   二、实战案例：两种优化方案的专业...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/Avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">杨璐</div><div class="author-info-description">20年供应链管理老兵，技术爱好者，终身学习者</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">38</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">43</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/Walker-YL" target="_blank" title="fa-brands fa-github"><i class="GitHub"></i></a><a class="social-icon" href="mailto:walker-yl@example.com" target="_blank" title="fa-solid fa-envelope"><i class="E-mail"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客！在这里分享管理思考、技术心得和人生感悟。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%EF%BC%9A%E4%BC%81%E4%B8%9A%E8%BF%90%E8%90%A5%E7%9A%84-%E2%80%9C%E7%A8%B3%E5%AE%9A%E5%99%A8%E2%80%9D"><span class="toc-number">1.</span> <span class="toc-text">一、安全库存：企业运营的 “稳定器”</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E2%80%9C%E6%8B%8D%E8%84%91%E8%A2%8B%E2%80%9D-%E5%86%B3%E7%AD%96%EF%BC%9A%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86%E7%9A%84-%E2%80%9C%E9%9A%90%E5%BD%A2%E9%99%B7%E9%98%B1%E2%80%9D"><span class="toc-number">2.</span> <span class="toc-text">二、“拍脑袋” 决策：库存管理的 “隐形陷阱”</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%EF%BC%9A%E8%A7%A3%E9%94%81%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86%E7%9A%84-%E2%80%9C%E7%B2%BE%E5%87%86%E5%AF%86%E7%A0%81%E2%80%9D"><span class="toc-number">3.</span> <span class="toc-text">三、科学计算：解锁库存管理的 “精准密码”</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E7%BB%9F%E8%AE%A1%E5%AD%A6%E6%96%B9%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">（一）统计学方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9E%8B%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">（二）数学模型法</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/08/17/%E5%89%8D%E6%9C%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%88%B0%E9%87%8F%E4%BA%A7%E4%BA%A4%E6%8E%A5%E4%B8%AD%E7%9A%84%E8%81%8C%E8%83%BD%E4%BA%A4%E6%8E%A5%E4%B8%8E%E7%A1%AE%E8%AE%A4/" title="前期项目管理到量产交接中的职能交接与确认"><img src="/images/toutiao/7539463142859768320/01.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="前期项目管理到量产交接中的职能交接与确认"/></a><div class="content"><a class="title" href="/2025/08/17/%E5%89%8D%E6%9C%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%88%B0%E9%87%8F%E4%BA%A7%E4%BA%A4%E6%8E%A5%E4%B8%AD%E7%9A%84%E8%81%8C%E8%83%BD%E4%BA%A4%E6%8E%A5%E4%B8%8E%E7%A1%AE%E8%AE%A4/" title="前期项目管理到量产交接中的职能交接与确认">前期项目管理到量产交接中的职能交接与确认</a><time datetime="2025-08-17T01:00:00.000Z" title="发表于 2025-08-17 09:00:00">2025-08-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/07/22/%E4%BA%A7%E8%83%BD%E8%AE%A1%E5%88%92%EF%BC%9A%E5%B7%A5%E8%89%BA%E9%83%A8%E9%97%A8%E4%B8%8E%E7%89%A9%E6%B5%81%E8%AE%A1%E5%88%92%E9%83%A8%E9%97%A8%E7%9A%84%E6%9D%83%E8%B4%A3%E4%B9%8B%E4%BA%89%E4%B8%8E%E5%8D%8F%E5%90%8C%E4%B9%8B%E9%81%93/" title="产能计划：工艺部门与物流计划部门的权责之争与协同之道"><img src="/images/toutiao/7529878083676144168/01.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="产能计划：工艺部门与物流计划部门的权责之争与协同之道"/></a><div class="content"><a class="title" href="/2025/07/22/%E4%BA%A7%E8%83%BD%E8%AE%A1%E5%88%92%EF%BC%9A%E5%B7%A5%E8%89%BA%E9%83%A8%E9%97%A8%E4%B8%8E%E7%89%A9%E6%B5%81%E8%AE%A1%E5%88%92%E9%83%A8%E9%97%A8%E7%9A%84%E6%9D%83%E8%B4%A3%E4%B9%8B%E4%BA%89%E4%B8%8E%E5%8D%8F%E5%90%8C%E4%B9%8B%E9%81%93/" title="产能计划：工艺部门与物流计划部门的权责之争与协同之道">产能计划：工艺部门与物流计划部门的权责之争与协同之道</a><time datetime="2025-07-22T01:00:00.000Z" title="发表于 2025-07-22 09:00:00">2025-07-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/07/21/%E4%BA%BA%E5%91%98%E9%9C%80%E6%B1%82%E4%B8%8E%E5%8A%A0%E7%8F%AD%E5%B7%A5%E6%97%B6%E7%9A%84%E8%AE%A1%E7%AE%97/" title="人员需求与加班工时的计算"><img src="/images/toutiao/7529521591886774819/01.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="人员需求与加班工时的计算"/></a><div class="content"><a class="title" href="/2025/07/21/%E4%BA%BA%E5%91%98%E9%9C%80%E6%B1%82%E4%B8%8E%E5%8A%A0%E7%8F%AD%E5%B7%A5%E6%97%B6%E7%9A%84%E8%AE%A1%E7%AE%97/" title="人员需求与加班工时的计算">人员需求与加班工时的计算</a><time datetime="2025-07-21T01:00:00.000Z" title="发表于 2025-07-21 09:00:00">2025-07-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/07/10/%E4%BE%9B%E5%BA%94%E5%95%86%E4%BA%A4%E4%BB%98%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0%EF%BC%9A%E6%96%B9%E6%B3%95%E3%80%81%E6%8C%87%E6%A0%87%E4%B8%8E%E5%AE%9E%E6%88%98%E5%BA%94%E7%94%A8/" title="供应商交付绩效评估：方法、指标与实战应用"><img src="/images/toutiao/7525417923704341019/01.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="供应商交付绩效评估：方法、指标与实战应用"/></a><div class="content"><a class="title" href="/2025/07/10/%E4%BE%9B%E5%BA%94%E5%95%86%E4%BA%A4%E4%BB%98%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0%EF%BC%9A%E6%96%B9%E6%B3%95%E3%80%81%E6%8C%87%E6%A0%87%E4%B8%8E%E5%AE%9E%E6%88%98%E5%BA%94%E7%94%A8/" title="供应商交付绩效评估：方法、指标与实战应用">供应商交付绩效评估：方法、指标与实战应用</a><time datetime="2025-07-10T01:00:00.000Z" title="发表于 2025-07-10 09:00:00">2025-07-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/06/27/%E8%AE%BE%E5%A4%87%E7%BB%B4%E6%8A%A4%E7%9A%84%E9%BB%84%E9%87%91%E5%B9%B3%E8%A1%A1%E7%82%B9%EF%BC%9APM%20%E6%AF%94%E7%8E%87%E4%B8%8E%20OEE%20%E7%9A%84%E5%8D%8F%E5%90%8C%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5/" title="设备维护的黄金平衡点：PM 比率与 OEE 的协同优化策略"><img src="/images/toutiao/7520446112893780492/01.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="设备维护的黄金平衡点：PM 比率与 OEE 的协同优化策略"/></a><div class="content"><a class="title" href="/2025/06/27/%E8%AE%BE%E5%A4%87%E7%BB%B4%E6%8A%A4%E7%9A%84%E9%BB%84%E9%87%91%E5%B9%B3%E8%A1%A1%E7%82%B9%EF%BC%9APM%20%E6%AF%94%E7%8E%87%E4%B8%8E%20OEE%20%E7%9A%84%E5%8D%8F%E5%90%8C%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5/" title="设备维护的黄金平衡点：PM 比率与 OEE 的协同优化策略">设备维护的黄金平衡点：PM 比率与 OEE 的协同优化策略</a><time datetime="2025-06-27T01:00:00.000Z" title="发表于 2025-06-27 09:00:00">2025-06-27</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 杨璐</span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

@@ -10,36 +10,334 @@
   <rights>All rights reserved 2026, 杨璐</rights>
   <subtitle>用技术提效，用文字记录管理与人生</subtitle>
   <title>杨璐 Richard | 供应链管理</title>
-  <updated>2026-05-16T03:18:14.338Z</updated>
+  <updated>2025-08-17T01:00:00.000Z</updated>
   <entry>
     <author>
       <name>杨璐</name>
     </author>
-    <id>https://walker-yl.github.io/2026/05/16/hello-world/</id>
-    <link href="https://walker-yl.github.io/2026/05/16/hello-world/"/>
-    <published>2026-05-16T03:18:14.338Z</published>
+    <category term="管理思考" scheme="https://walker-yl.github.io/categories/%E7%AE%A1%E7%90%86%E6%80%9D%E8%80%83/"/>
+    <category term="汽车行业" scheme="https://walker-yl.github.io/tags/%E6%B1%BD%E8%BD%A6%E8%A1%8C%E4%B8%9A/"/>
+    <category term="项目管理" scheme="https://walker-yl.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    <id>https://walker-yl.github.io/2025/08/17/%E5%89%8D%E6%9C%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%88%B0%E9%87%8F%E4%BA%A7%E4%BA%A4%E6%8E%A5%E4%B8%AD%E7%9A%84%E8%81%8C%E8%83%BD%E4%BA%A4%E6%8E%A5%E4%B8%8E%E7%A1%AE%E8%AE%A4/</id>
+    <link href="https://walker-yl.github.io/2025/08/17/%E5%89%8D%E6%9C%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%88%B0%E9%87%8F%E4%BA%A7%E4%BA%A4%E6%8E%A5%E4%B8%AD%E7%9A%84%E8%81%8C%E8%83%BD%E4%BA%A4%E6%8E%A5%E4%B8%8E%E7%A1%AE%E8%AE%A4/"/>
+    <published>2025-08-17T01:00:00.000Z</published>
     <summary>
-      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
+      <![CDATA[<p>在汽车零部件项目从前期管理过渡到量产的过程中，各职能部门基于产品技术参数、生产工艺标准、质量控制要求等核心要素开展的协同衔接与标准化确认，是保障量产启动成功率的关键环节。依据Gateway Review 体系，系统阐述从设计冻结至量产批准阶段，各职能部门以产品全生命周期管理为核心的交接流程与确认标准。<br>Gateway 2：设计冻结至 Gateway 3：样件认可的衔接</p>]]>
     </summary>
-    <title>Hello World</title>
-    <updated>2026-05-16T03:18:14.338Z</updated>
+    <title>前期项目管理到量产交接中的职能交接与确认</title>
+    <updated>2025-08-17T01:00:00.000Z</updated>
   </entry>
   <entry>
     <author>
       <name>杨璐</name>
     </author>
-    <category term="人生随笔" scheme="https://walker-yl.github.io/categories/%E4%BA%BA%E7%94%9F%E9%9A%8F%E7%AC%94/"/>
-    <category term="个人IP" scheme="https://walker-yl.github.io/tags/%E4%B8%AA%E4%BA%BAIP/"/>
-    <category term="供应链" scheme="https://walker-yl.github.io/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/"/>
-    <category term="随笔" scheme="https://walker-yl.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    <id>https://walker-yl.github.io/2025/05/16/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%EF%BC%9F/</id>
-    <link href="https://walker-yl.github.io/2025/05/16/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%EF%BC%9F/"/>
-    <published>2025-05-16T02:00:00.000Z</published>
+    <category term="管理思考" scheme="https://walker-yl.github.io/categories/%E7%AE%A1%E7%90%86%E6%80%9D%E8%80%83/"/>
+    <category term="生产管理" scheme="https://walker-yl.github.io/tags/%E7%94%9F%E4%BA%A7%E7%AE%A1%E7%90%86/"/>
+    <category term="跨部门协同" scheme="https://walker-yl.github.io/tags/%E8%B7%A8%E9%83%A8%E9%97%A8%E5%8D%8F%E5%90%8C/"/>
+    <id>https://walker-yl.github.io/2025/07/22/%E4%BA%A7%E8%83%BD%E8%AE%A1%E5%88%92%EF%BC%9A%E5%B7%A5%E8%89%BA%E9%83%A8%E9%97%A8%E4%B8%8E%E7%89%A9%E6%B5%81%E8%AE%A1%E5%88%92%E9%83%A8%E9%97%A8%E7%9A%84%E6%9D%83%E8%B4%A3%E4%B9%8B%E4%BA%89%E4%B8%8E%E5%8D%8F%E5%90%8C%E4%B9%8B%E9%81%93/</id>
+    <link href="https://walker-yl.github.io/2025/07/22/%E4%BA%A7%E8%83%BD%E8%AE%A1%E5%88%92%EF%BC%9A%E5%B7%A5%E8%89%BA%E9%83%A8%E9%97%A8%E4%B8%8E%E7%89%A9%E6%B5%81%E8%AE%A1%E5%88%92%E9%83%A8%E9%97%A8%E7%9A%84%E6%9D%83%E8%B4%A3%E4%B9%8B%E4%BA%89%E4%B8%8E%E5%8D%8F%E5%90%8C%E4%B9%8B%E9%81%93/"/>
+    <published>2025-07-22T01:00:00.000Z</published>
     <summary>
-      <![CDATA[<h2 id="🌟-前言"><a href="#🌟-前言" class="headerlink" title="🌟 前言"></a>🌟 前言</h2><p>今天，我终于下定决心，把这个博客搭建起来了。</p>
-<p>说实话，这个决定并不容易。在过去的几个月里，我无数次打开]]>
+      <![CDATA[<p>在制造型企业的运营管理中，产能计划如同“引擎调节器”，直接影响生产效率、交付能力与成本控制。然而，关于产能计划究竟应归属工艺部门还是物流计划部门的争论，始终是企业组织架构设计中的焦点。这一问题的本质，实则是对产能计划核心职能的理解差异——它究竟是围绕生产技术与流程的“技术规划”，还是聚焦物料流转与供需平衡的“资源协调”？<br>产能计划归属工艺部门的合理性</p>]]>
     </summary>
-    <title>为什么我要做这个博客？</title>
-    <updated>2025-05-16T02:00:00.000Z</updated>
+    <title>产能计划：工艺部门与物流计划部门的权责之争与协同之道</title>
+    <updated>2025-07-22T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="生产管理" scheme="https://walker-yl.github.io/tags/%E7%94%9F%E4%BA%A7%E7%AE%A1%E7%90%86/"/>
+    <category term="人力规划" scheme="https://walker-yl.github.io/tags/%E4%BA%BA%E5%8A%9B%E8%A7%84%E5%88%92/"/>
+    <id>https://walker-yl.github.io/2025/07/21/%E4%BA%BA%E5%91%98%E9%9C%80%E6%B1%82%E4%B8%8E%E5%8A%A0%E7%8F%AD%E5%B7%A5%E6%97%B6%E7%9A%84%E8%AE%A1%E7%AE%97/</id>
+    <link href="https://walker-yl.github.io/2025/07/21/%E4%BA%BA%E5%91%98%E9%9C%80%E6%B1%82%E4%B8%8E%E5%8A%A0%E7%8F%AD%E5%B7%A5%E6%97%B6%E7%9A%84%E8%AE%A1%E7%AE%97/"/>
+    <published>2025-07-21T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在多条产线并行的生产环境中，人员需求和加班工时的计算需结合各产线特性、产品差异及产能目标精准规划，确保人力与计划匹配。<br>一、人员需求计算（多条产线场景）</p>]]>
+    </summary>
+    <title>人员需求与加班工时的计算</title>
+    <updated>2025-07-21T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="供应商管理" scheme="https://walker-yl.github.io/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/"/>
+    <category term="绩效管理" scheme="https://walker-yl.github.io/tags/%E7%BB%A9%E6%95%88%E7%AE%A1%E7%90%86/"/>
+    <id>https://walker-yl.github.io/2025/07/10/%E4%BE%9B%E5%BA%94%E5%95%86%E4%BA%A4%E4%BB%98%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0%EF%BC%9A%E6%96%B9%E6%B3%95%E3%80%81%E6%8C%87%E6%A0%87%E4%B8%8E%E5%AE%9E%E6%88%98%E5%BA%94%E7%94%A8/</id>
+    <link href="https://walker-yl.github.io/2025/07/10/%E4%BE%9B%E5%BA%94%E5%95%86%E4%BA%A4%E4%BB%98%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0%EF%BC%9A%E6%96%B9%E6%B3%95%E3%80%81%E6%8C%87%E6%A0%87%E4%B8%8E%E5%AE%9E%E6%88%98%E5%BA%94%E7%94%A8/"/>
+    <published>2025-07-10T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在全球供应链竞争日益激烈的背景下，精准评估供应商交付绩效是企业保障生产连续性、控制成本、提升竞争力的关键。供应商交付绩效评估（Supplier Delivery Performance Evaluation）旨在通过量化分析，衡量供应商在交付环节的综合表现，为供应链管理提供决策依据。本文将详细介绍评估方法、核心指标，并结合实例展示评估过程。</p>
+<h2 id="一、关键评估指标"><a href="#一、关键评估指标" class="headerlink" title="一、关键评估指标"></a>一、关键评估指标</h2>]]>
+    </summary>
+    <title>供应商交付绩效评估：方法、指标与实战应用</title>
+    <updated>2025-07-10T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="设备管理" scheme="https://walker-yl.github.io/tags/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86/"/>
+    <category term="OEE" scheme="https://walker-yl.github.io/tags/OEE/"/>
+    <id>https://walker-yl.github.io/2025/06/27/%E8%AE%BE%E5%A4%87%E7%BB%B4%E6%8A%A4%E7%9A%84%E9%BB%84%E9%87%91%E5%B9%B3%E8%A1%A1%E7%82%B9%EF%BC%9APM%20%E6%AF%94%E7%8E%87%E4%B8%8E%20OEE%20%E7%9A%84%E5%8D%8F%E5%90%8C%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5/</id>
+    <link href="https://walker-yl.github.io/2025/06/27/%E8%AE%BE%E5%A4%87%E7%BB%B4%E6%8A%A4%E7%9A%84%E9%BB%84%E9%87%91%E5%B9%B3%E8%A1%A1%E7%82%B9%EF%BC%9APM%20%E6%AF%94%E7%8E%87%E4%B8%8E%20OEE%20%E7%9A%84%E5%8D%8F%E5%90%8C%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5/"/>
+    <published>2025-06-27T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在智能制造时代，设备维护已从传统的故障修复模式，转向以数据为核心的精细化管理。预防性维护比例（PM Ratio）和设备综合效率（OEE）作为衡量维护水平的核心指标，常陷入 “此消彼长” 的矛盾：过度追求高 PM 比率可能因频繁停机降低 OEE，而 PM 不足又会引发故障频发，导致生产效率下滑。如何精准找到两者的最优平衡点，成为企业降本增效的关键突破口。</p>
+<h2 id="一、核心指标的博弈与共生"><a href="#一、核心指标的博弈与共生" class="headerlink" title="一、核心指标的博弈与共生"></a>一、核心指标的博弈与共生</h2>]]>
+    </summary>
+    <title>设备维护的黄金平衡点：PM 比率与 OEE 的协同优化策略</title>
+    <updated>2025-06-27T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="采购管理" scheme="https://walker-yl.github.io/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/"/>
+    <category term="战略管理" scheme="https://walker-yl.github.io/tags/%E6%88%98%E7%95%A5%E7%AE%A1%E7%90%86/"/>
+    <id>https://walker-yl.github.io/2025/06/26/%E4%BC%81%E4%B8%9AMake%20or%20Buy%E5%86%B3%E7%AD%96%EF%BC%9A%E6%88%90%E6%9C%AC%E3%80%81%E6%88%98%E7%95%A5%E4%B8%8E%E9%A3%8E%E9%99%A9%E7%9A%84%E5%A4%9A%E7%BB%B4%E6%9D%83%E8%A1%A1%E4%B9%8B%E8%B7%AF/</id>
+    <link href="https://walker-yl.github.io/2025/06/26/%E4%BC%81%E4%B8%9AMake%20or%20Buy%E5%86%B3%E7%AD%96%EF%BC%9A%E6%88%90%E6%9C%AC%E3%80%81%E6%88%98%E7%95%A5%E4%B8%8E%E9%A3%8E%E9%99%A9%E7%9A%84%E5%A4%9A%E7%BB%B4%E6%9D%83%E8%A1%A1%E4%B9%8B%E8%B7%AF/"/>
+    <published>2025-06-26T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在企业运营过程中，”Make or Buy”（自制或外购）的抉择如同十字路口的信号灯，直接影响着企业的运营模式、成本结构与市场竞争力。从苹果公司自主研发A系列芯片，到众多车企将非核心零部件外包，这一决策贯穿于各行各业。它不仅是简单的成本计算，更是企业基于战略定位、资源能力与市场环境的综合考量。以下将从决策框架、关键影响因素与典型案例展开，解析这一重要商业决策的全过程。</p>]]>
+    </summary>
+    <title>企业Make or Buy决策：成本、战略与风险的多维权衡之路</title>
+    <updated>2025-06-26T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="生产管理" scheme="https://walker-yl.github.io/tags/%E7%94%9F%E4%BA%A7%E7%AE%A1%E7%90%86/"/>
+    <category term="TOC约束理论" scheme="https://walker-yl.github.io/tags/TOC%E7%BA%A6%E6%9D%9F%E7%90%86%E8%AE%BA/"/>
+    <id>https://walker-yl.github.io/2025/06/26/%E7%BA%A6%E6%9D%9F%E7%90%86%E8%AE%BA%EF%BC%9A%E7%94%9F%E4%BA%A7%E8%BF%90%E8%90%A5%E7%93%B6%E9%A2%88%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%80%A7%E6%96%B9%E6%B3%95%E8%AE%BA/</id>
+    <link href="https://walker-yl.github.io/2025/06/26/%E7%BA%A6%E6%9D%9F%E7%90%86%E8%AE%BA%EF%BC%9A%E7%94%9F%E4%BA%A7%E8%BF%90%E8%90%A5%E7%93%B6%E9%A2%88%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%80%A7%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <published>2025-06-26T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在企业的运营发展过程中，总会遇到各种各样的阻碍，导致无法实现效率和效益的最大化。约束理论（Theory of Constraints，TOC）正是为解决这类问题而生的一套系统性管理方法，由以色列物理学家及企业管理大师艾利·高德拉特博士提出。该理论强调，任何系统至少存在着一个约束因素，即瓶颈，只有识别并打破这些约束，才能让系统的整体效能得到显著提升。而“鼓 - 缓冲 - 绳”模型，正是约束理论在实际生产运营中的具象化应用，通过三个关键要素的协同运作，帮助企业精准定位并突破发展瓶颈。<br>一、约束理论的核心逻辑</p>]]>
+    </summary>
+    <title>约束理论：生产运营瓶颈的系统性方法论</title>
+    <updated>2025-06-26T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="成本管理" scheme="https://walker-yl.github.io/tags/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+    <category term="采购管理" scheme="https://walker-yl.github.io/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/"/>
+    <id>https://walker-yl.github.io/2025/06/25/%E5%A6%82%E4%BD%95%E7%B2%BE%E5%87%86%E5%88%A4%E6%96%AD%E4%BE%9B%E5%BA%94%E5%95%86%E6%8A%A5%E4%BB%B7%E7%9A%84%E5%90%88%E7%90%86%E6%80%A7%EF%BC%9F%E5%A4%9A%E7%BB%B4%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E6%93%8D%E6%8C%87%E5%8D%97/</id>
+    <link href="https://walker-yl.github.io/2025/06/25/%E5%A6%82%E4%BD%95%E7%B2%BE%E5%87%86%E5%88%A4%E6%96%AD%E4%BE%9B%E5%BA%94%E5%95%86%E6%8A%A5%E4%BB%B7%E7%9A%84%E5%90%88%E7%90%86%E6%80%A7%EF%BC%9F%E5%A4%9A%E7%BB%B4%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E6%93%8D%E6%8C%87%E5%8D%97/"/>
+    <published>2025-06-25T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在采购管理中，判断供应商报价是否合理是一项兼具专业性与策略性的工作。本文将从成本构成分析、市场行情比对、供应商资质评估等多个维度，结合具体方法与实操案例，探讨如何科学判断供应商报价的合理性。<br>一、深入剖析成本构成，挖掘价格本质</p>]]>
+    </summary>
+    <title>如何精准判断供应商报价的合理性？多维分析与实操指南</title>
+    <updated>2025-06-25T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="供应商管理" scheme="https://walker-yl.github.io/tags/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/"/>
+    <category term="采购管理" scheme="https://walker-yl.github.io/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/"/>
+    <id>https://walker-yl.github.io/2025/06/25/%E9%80%86%E5%90%91%E7%AB%9E%E6%A0%87%EF%BC%9A%E9%87%8D%E6%9E%84%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86%E7%9A%84%E6%95%88%E7%8E%87%E4%B8%8E%E4%BB%B7%E5%80%BC/</id>
+    <link href="https://walker-yl.github.io/2025/06/25/%E9%80%86%E5%90%91%E7%AB%9E%E6%A0%87%EF%BC%9A%E9%87%8D%E6%9E%84%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86%E7%9A%84%E6%95%88%E7%8E%87%E4%B8%8E%E4%BB%B7%E5%80%BC/"/>
+    <published>2025-06-25T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在全球供应链竞争日益激烈的商业环境中，采购管理从传统的成本控制职能，逐渐演变为企业核心竞争力的重要组成部分。逆向竞标（Reverse Auction）作为一种创新采购模式，正以颠覆性的思维重构传统采购流程，为企业带来显著的成本节约和效率提升。然而，在实际操作中，逆向竞标也面临诸多挑战，需要采购方提前预判并制定应对策略。了解其起源，有助于我们更深刻理解这一模式的发展逻辑与应用价值。</p>]]>
+    </summary>
+    <title>逆向竞标：重构采购管理的效率与价值</title>
+    <updated>2025-06-25T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="库存管理" scheme="https://walker-yl.github.io/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/"/>
+    <category term="安全库存" scheme="https://walker-yl.github.io/tags/%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/"/>
+    <id>https://walker-yl.github.io/2025/06/24/%E6%91%92%E5%BC%83%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/</id>
+    <link href="https://walker-yl.github.io/2025/06/24/%E6%91%92%E5%BC%83%E7%BB%8F%E9%AA%8C%E4%B8%BB%E4%B9%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98/"/>
+    <published>2025-06-24T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>过去，依赖 “拍脑袋” 设定安全库存的方式，如同蒙眼驾车，虽能短暂维持运营，却始终潜藏着巨大风险。在市场需求瞬息万变、供应链波动加剧的当下，唯有引入科学计算方法，才能为企业筑起一道坚固的库存防线，实现降本增效与持续发展。</p>]]>
+    </summary>
+    <title>摒弃经验主义：科学计算安全库存</title>
+    <updated>2025-06-24T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="库存管理" scheme="https://walker-yl.github.io/tags/%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86/"/>
+    <category term="成本管理" scheme="https://walker-yl.github.io/tags/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+    <id>https://walker-yl.github.io/2025/06/23/%E2%80%9C%E9%99%8D%E4%BD%8E%E5%BA%93%E5%AD%98%E2%80%9D%E7%9A%84%E5%89%8D%E6%8F%90%E2%80%94%E2%80%94%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96%E6%88%90%E6%9C%AC%E6%94%B6%E7%9B%8A%E5%AF%B9%E6%AF%94/</id>
+    <link href="https://walker-yl.github.io/2025/06/23/%E2%80%9C%E9%99%8D%E4%BD%8E%E5%BA%93%E5%AD%98%E2%80%9D%E7%9A%84%E5%89%8D%E6%8F%90%E2%80%94%E2%80%94%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96%E6%88%90%E6%9C%AC%E6%94%B6%E7%9B%8A%E5%AF%B9%E6%AF%94/"/>
+    <published>2025-06-23T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在企业供应链管理与财务管理的交叉领域中，库存优化决策始终是管理层关注的核心议题。库存作为企业流动资产的重要组成部分，其规模的调整涉及复杂的成本效益分析 —— 压缩库存虽能释放资金、降低资金占用成本，但同时可能引发采购、运输、系统升级等额外支出。此外，客户需求稳定性、市场需求持续性以及供应商供货表现等外部因素，也会对库存决策产生关键影响。</p>]]>
+    </summary>
+    <title>“降低库存”的前提——库存优化成本收益对比</title>
+    <updated>2025-06-23T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="质量管理" scheme="https://walker-yl.github.io/tags/%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86/"/>
+    <category term="六西格玛" scheme="https://walker-yl.github.io/tags/%E5%85%AD%E8%A5%BF%E6%A0%BC%E7%8E%9B/"/>
+    <id>https://walker-yl.github.io/2025/06/23/%E5%85%AD%E8%A5%BF%E6%A0%BC%E7%8E%9B%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86%EF%BC%9A%E4%BC%81%E4%B8%9A%E8%B4%A8%E9%87%8F%E5%8F%98%E9%9D%A9%E7%9A%84%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</id>
+    <link href="https://walker-yl.github.io/2025/06/23/%E5%85%AD%E8%A5%BF%E6%A0%BC%E7%8E%9B%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86%EF%BC%9A%E4%BC%81%E4%B8%9A%E8%B4%A8%E9%87%8F%E5%8F%98%E9%9D%A9%E7%9A%84%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/"/>
+    <published>2025-06-23T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在全球市场竞争白热化的当下，质量已成为企业立足市场的核心竞争力。六西格玛质量管理以其数据驱动、追求卓越的理念和方法，为企业提供了系统性的质量改进路径。从摩托罗拉的实验室到全球 500 强企业的管理体系，六西格玛正深刻影响着现代企业的运营模式。本文将从理论体系、实施流程、工具应用及实际案例等方面，对六西格玛质量管理进行专业详尽的解读，重点对其中涉及的工具展开深入剖析。</p>
+<h2 id="一、六西格玛的起源与发展"><a href="#一、六西格玛的起源与发展" class="headerlink" title="一、六西格玛的起源与发展"></a>一、六西格玛的起源与发展</h2>]]>
+    </summary>
+    <title>六西格玛质量管理：企业质量变革的深度解析</title>
+    <updated>2025-06-23T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="采购管理" scheme="https://walker-yl.github.io/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/"/>
+    <category term="TCO" scheme="https://walker-yl.github.io/tags/TCO/"/>
+    <id>https://walker-yl.github.io/2025/06/23/%E6%80%BB%E6%8B%A5%E6%9C%89%E6%88%90%E6%9C%AC%EF%BC%88TCO%EF%BC%89%EF%BC%9A%E4%BC%81%E4%B8%9A%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E7%9A%84%E5%85%A8%E6%99%AF%E8%A7%86%E8%A7%92/</id>
+    <link href="https://walker-yl.github.io/2025/06/23/%E6%80%BB%E6%8B%A5%E6%9C%89%E6%88%90%E6%9C%AC%EF%BC%88TCO%EF%BC%89%EF%BC%9A%E4%BC%81%E4%B8%9A%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E7%9A%84%E5%85%A8%E6%99%AF%E8%A7%86%E8%A7%92/"/>
+    <published>2025-06-23T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在当今竞争激烈的商业环境中，企业的成本管理直接关系到其生存与发展。传统的成本评估往往局限于采购价格，却忽视了产品或服务全生命周期内的隐藏支出。而总拥有成本（Total Cost of Ownership，简称 TCO）这一概念的出现，为企业提供了一种更为全面、科学的成本管理视角。它涵盖了从资产或服务获取，到使用、维护，直至最终处置的全过程成本，帮助企业避免陷入 “低价陷阱”，做出更具战略性的决策。接下来，本文将深入剖析 TCO 的内涵、构成要素、计算公式及实际应用，为企业优化成本管理提供专业指导。</p>
+<h2 id="一、TCO-的定义与核心价值"><a href="#一、TCO-的定义与核心价值" class="headerlink" title="一、TCO 的定义与核心价值"></a>一、TCO 的定义与核心价值</h2>]]>
+    </summary>
+    <title>总拥有成本（TCO）：企业成本管理的全景视角</title>
+    <updated>2025-06-23T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="运筹学" scheme="https://walker-yl.github.io/tags/%E8%BF%90%E7%AD%B9%E5%AD%A6/"/>
+    <category term="Excel" scheme="https://walker-yl.github.io/tags/Excel/"/>
+    <id>https://walker-yl.github.io/2025/06/23/%E7%B2%BE%E5%87%86%E6%9E%84%E5%BB%BA%E7%9B%88%E5%88%A9%E6%A8%A1%E5%9E%8B%EF%BC%9AExcel%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/</id>
+    <link href="https://walker-yl.github.io/2025/06/23/%E7%B2%BE%E5%87%86%E6%9E%84%E5%BB%BA%E7%9B%88%E5%88%A9%E6%A8%A1%E5%9E%8B%EF%BC%9AExcel%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/"/>
+    <published>2025-06-23T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在企业运营中，如何合理分配资源以实现利润最大化，是管理层面临的关键难题。线性规划作为运筹学的重要分支，能够通过数学模型帮助企业找到资源配置的最优解。本文将从基础概念出发，逐步深入到 Excel 实战案例，手把手教你利用线性规划构建企业盈利模型。</p>
+<h2 id="一、线性规划：寻找最优解的数学钥匙"><a href="#一、线性规划：寻找最优解的数学钥匙" class="headerlink" title="一、线性规划：寻找最优解的数学钥匙"></a>一、线性规划：寻找最优解的数学钥匙</h2>]]>
+    </summary>
+    <title>精准构建盈利模型：Excel线性规划实战指南</title>
+    <updated>2025-06-23T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="精益生产" scheme="https://walker-yl.github.io/tags/%E7%B2%BE%E7%9B%8A%E7%94%9F%E4%BA%A7/"/>
+    <category term="看板" scheme="https://walker-yl.github.io/tags/%E7%9C%8B%E6%9D%BF/"/>
+    <id>https://walker-yl.github.io/2025/06/23/%E7%B2%BE%E7%9B%8A%E7%94%9F%E4%BA%A7%E4%B8%AD%E7%9A%84%E7%9C%8B%E6%9D%BFKANBAN%EF%BC%9A%E4%BB%8E%E4%BC%A0%E7%BB%9F%E5%88%B0%E7%8E%B0%E4%BB%A3%E7%9A%84%E5%8F%98%E9%9D%A9%E4%B8%8E%E5%AE%9E%E8%B7%B5/</id>
+    <link href="https://walker-yl.github.io/2025/06/23/%E7%B2%BE%E7%9B%8A%E7%94%9F%E4%BA%A7%E4%B8%AD%E7%9A%84%E7%9C%8B%E6%9D%BFKANBAN%EF%BC%9A%E4%BB%8E%E4%BC%A0%E7%BB%9F%E5%88%B0%E7%8E%B0%E4%BB%A3%E7%9A%84%E5%8F%98%E9%9D%A9%E4%B8%8E%E5%AE%9E%E8%B7%B5/"/>
+    <published>2025-06-23T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在精益生产体系中，看板如同生产线上的 “神经中枢”，以直观、高效的方式协调着生产流程，消除浪费、提升效率。从早期简单的纸质卡片，到如今实时交互的电子系统，看板技术不断迭代，但其核心宗旨始终围绕着 “按需生产”。接下来，我们将通过实际案例，深入了解传统物流看板与现代化电子看板的运作逻辑与实施过程，特别是看板如何在生产消耗和物流仓库之间循环流转。</p>]]>
+    </summary>
+    <title>精益生产中的看板KANBAN：从传统到现代的变革与实践</title>
+    <updated>2025-06-23T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="MES" scheme="https://walker-yl.github.io/tags/MES/"/>
+    <category term="数字化工厂" scheme="https://walker-yl.github.io/tags/%E6%95%B0%E5%AD%97%E5%8C%96%E5%B7%A5%E5%8E%82/"/>
+    <id>https://walker-yl.github.io/2025/06/22/MES%20%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90%EF%BC%9A%E5%AE%9E%E6%96%BD%E4%BB%B7%E5%80%BC%E3%80%81%E4%B8%8E%20ERP%20%E9%9B%86%E6%88%90%E5%8F%8A%E6%9C%AA%E6%9D%A5%E8%93%9D%E5%9B%BE/</id>
+    <link href="https://walker-yl.github.io/2025/06/22/MES%20%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90%EF%BC%9A%E5%AE%9E%E6%96%BD%E4%BB%B7%E5%80%BC%E3%80%81%E4%B8%8E%20ERP%20%E9%9B%86%E6%88%90%E5%8F%8A%E6%9C%AA%E6%9D%A5%E8%93%9D%E5%9B%BE/"/>
+    <published>2025-06-22T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在当今竞争激烈的制造业环境中，制造执行系统（MES）已成为企业实现数字化转型、提升生产效率和竞争力的关键工具。它不仅能实时监控生产过程，优化资源配置，还能与企业资源计划（ERP）等其他系统紧密集成，实现企业运营管理的全方位协同。接下来，我们深入探讨 MES 能为企业带来的显著好处、与 ERP 系统的数据接口实现，以及其未来发展趋势。</p>]]>
+    </summary>
+    <title>MES 深度剖析：实施价值、与 ERP 集成及未来蓝图</title>
+    <updated>2025-06-22T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="生产管理" scheme="https://walker-yl.github.io/tags/%E7%94%9F%E4%BA%A7%E7%AE%A1%E7%90%86/"/>
+    <category term="APS" scheme="https://walker-yl.github.io/tags/APS/"/>
+    <id>https://walker-yl.github.io/2025/06/22/%E4%BE%9B%E5%BA%94%E9%93%BE%E8%AE%A1%E5%88%92%20APS%EF%BC%9A%E4%BC%81%E4%B8%9A%E8%BF%90%E8%90%A5%E7%9A%84%E6%99%BA%E8%83%BD%E5%A4%A7%E8%84%91/</id>
+    <link href="https://walker-yl.github.io/2025/06/22/%E4%BE%9B%E5%BA%94%E9%93%BE%E8%AE%A1%E5%88%92%20APS%EF%BC%9A%E4%BC%81%E4%B8%9A%E8%BF%90%E8%90%A5%E7%9A%84%E6%99%BA%E8%83%BD%E5%A4%A7%E8%84%91/"/>
+    <published>2025-06-22T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在当今全球化、竞争激烈的商业环境中，企业面临着前所未有的挑战。客户需求日益多样化且变化迅速，市场波动频繁，供应链的复杂性不断增加。在这样的背景下，高效的供应链管理成为企业生存与发展的关键。而供应链计划 APS（Advanced Planning and Scheduling，高级计划与排程）系统，作为供应链管理的核心工具，正发挥着越来越重要的作用，犹如企业运营的智能大脑，为企业的决策提供精准支持，助力企业在复杂多变的市场中脱颖而出。</p>]]>
+    </summary>
+    <title>供应链计划 APS：企业运营的智能大脑</title>
+    <updated>2025-06-22T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="设备管理" scheme="https://walker-yl.github.io/tags/%E8%AE%BE%E5%A4%87%E7%AE%A1%E7%90%86/"/>
+    <category term="OEE" scheme="https://walker-yl.github.io/tags/OEE/"/>
+    <id>https://walker-yl.github.io/2025/06/22/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90OEE(Overall%20Equipment%20Effectiveness)/</id>
+    <link href="https://walker-yl.github.io/2025/06/22/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90OEE(Overall%20Equipment%20Effectiveness)/"/>
+    <published>2025-06-22T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在制造业竞争日益白热化的当下，企业要想在市场中脱颖而出，持续提升生产效率、降低成本是关键。而设备综合效率（Overall Equipment Effectiveness，简称 OEE），正是衡量生产效率的核心指标，它犹如一把精准的标尺，帮助企业洞察生产过程中的潜在问题，挖掘提升效率的关键环节。接下来，我们将深入探讨 OEE 的内涵、计算方法、实际应用以及未来发展趋势。</p>]]>
+    </summary>
+    <title>深度解析OEE(Overall Equipment Effectiveness)</title>
+    <updated>2025-06-22T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="质量管理" scheme="https://walker-yl.github.io/tags/%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86/"/>
+    <category term="CPK" scheme="https://walker-yl.github.io/tags/CPK/"/>
+    <id>https://walker-yl.github.io/2025/06/22/%E8%BF%87%E7%A8%8B%E8%83%BD%E5%8A%9B%E6%8C%87%E6%95%B0PPK%EF%BC%9A%E4%BB%8E%E6%A6%82%E5%BF%B5%E8%A7%A3%E6%9E%90%E5%88%B0%E4%BC%81%E4%B8%9A%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86%E5%AE%9E%E8%B7%B5/</id>
+    <link href="https://walker-yl.github.io/2025/06/22/%E8%BF%87%E7%A8%8B%E8%83%BD%E5%8A%9B%E6%8C%87%E6%95%B0PPK%EF%BC%9A%E4%BB%8E%E6%A6%82%E5%BF%B5%E8%A7%A3%E6%9E%90%E5%88%B0%E4%BC%81%E4%B8%9A%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86%E5%AE%9E%E8%B7%B5/"/>
+    <published>2025-06-22T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在现代制造业和企业管理中，过程能力指数是衡量生产流程稳定性与产品质量水平的重要工具。其中，PPK（Process Performance Index，过程性能指数）和CPK（Process Capability Index，过程能力指数）是两个关键概念，它们在质量管理中发挥着不可替代的作用。本文将深入探讨PPK的概念内涵、与CPK的差异，以及企业如何利用PPK优化质量管理。<br>一、PPK的概念解析</p>]]>
+    </summary>
+    <title>过程能力指数PPK：从概念解析到企业质量管理实践</title>
+    <updated>2025-06-22T01:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="供应链" scheme="https://walker-yl.github.io/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/"/>
+    <category term="S&amp;OP" scheme="https://walker-yl.github.io/tags/S-OP/"/>
+    <id>
+      <![CDATA[https://walker-yl.github.io/2025/06/22/%E9%94%80%E5%94%AE%E4%B8%8E%E8%BF%90%E8%90%A5%E8%A7%84%E5%88%92%20(S&OP)%EF%BC%9A%E8%BF%9E%E6%8E%A5%E6%88%98%E7%95%A5%E4%B8%8E%E6%89%A7%E8%A1%8C%E7%9A%84%E4%BE%9B%E5%BA%94%E9%93%BE%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E/]]>
+    </id>
+    <link href="https://walker-yl.github.io/2025/06/22/%E9%94%80%E5%94%AE%E4%B8%8E%E8%BF%90%E8%90%A5%E8%A7%84%E5%88%92%20(S&amp;OP)%EF%BC%9A%E8%BF%9E%E6%8E%A5%E6%88%98%E7%95%A5%E4%B8%8E%E6%89%A7%E8%A1%8C%E7%9A%84%E4%BE%9B%E5%BA%94%E9%93%BE%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E/"/>
+    <published>2025-06-22T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>在瞬息万变、竞争激烈的商业环境中，企业如何确保其雄心勃勃的战略蓝图能够有效落地，转化为实实在在的运营成果和财务回报？销售与运营规划 (Sales and Operations Planning, S&amp;OP) 正是解决这一关键挑战的核心管理流程。它远非简单的月度会议，而是一个动态、跨职能、前瞻性的集成业务流程，旨在通过持续的协同，实现供需平衡，优化资源配置，最终驱动业务绩效。<br>S&amp;OP的核心使命：弥合战略与执行的鸿沟</p>]]>
+    </summary>
+    <title>
+      <![CDATA[销售与运营规划 (S&OP)：连接战略与执行的供应链核心引擎]]>
+    </title>
+    <updated>2025-06-22T01:00:00.000Z</updated>
   </entry>
 </feed>
