@@ -35,7 +35,8 @@ index_page:
 # Global Avatar
 avatar:
   img: /img/Avatar.jpg
-  effect: true
+  # effect: true 时头像会每2秒无限旋转一圈，改为 false 保持静止（悬停仍有轻微动效）
+  effect: false
 
 # Social Links
 social:
