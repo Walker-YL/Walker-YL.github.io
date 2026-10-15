@@ -10,7 +10,39 @@
   <rights>All rights reserved 2026, 杨璐</rights>
   <subtitle>用技术提效，用文字记录管理与人生</subtitle>
   <title>杨璐 Richard | 供应链管理</title>
-  <updated>2025-08-17T01:00:00.000Z</updated>
+  <updated>2026-10-15T01:00:00.000Z</updated>
+  <entry>
+    <author>
+      <name>杨璐</name>
+    </author>
+    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    <category term="微信小程序" scheme="https://walker-yl.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <category term="包装" scheme="https://walker-yl.github.io/tags/%E5%8C%85%E8%A3%85/"/>
+    <category term="仓储" scheme="https://walker-yl.github.io/tags/%E4%BB%93%E5%82%A8/"/>
+    <category term="装箱计算" scheme="https://walker-yl.github.io/tags/%E8%A3%85%E7%AE%B1%E8%AE%A1%E7%AE%97/"/>
+    <category term="工具" scheme="https://walker-yl.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    <id>https://walker-yl.github.io/2026/10/15/%E5%8C%85%E8%A3%85%E4%B8%8E%E4%BB%93%E5%82%A8%E6%A8%A1%E6%8B%9F%EF%BC%9A%E4%B8%80%E6%AC%BE%E5%B8%AE%E4%BD%A0%E7%AE%97%E2%80%9C%E4%B8%80%E7%AE%B1%E8%A3%85%E5%A4%9A%E5%B0%91%E3%80%81%E4%BB%93%E5%BA%93%E6%94%BE%E5%A4%9A%E5%B0%91%E2%80%9D%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/</id>
+    <link href="https://walker-yl.github.io/2026/10/15/%E5%8C%85%E8%A3%85%E4%B8%8E%E4%BB%93%E5%82%A8%E6%A8%A1%E6%8B%9F%EF%BC%9A%E4%B8%80%E6%AC%BE%E5%B8%AE%E4%BD%A0%E7%AE%97%E2%80%9C%E4%B8%80%E7%AE%B1%E8%A3%85%E5%A4%9A%E5%B0%91%E3%80%81%E4%BB%93%E5%BA%93%E6%94%BE%E5%A4%9A%E5%B0%91%E2%80%9D%E7%9A%84%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <published>2026-10-15T01:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="先说结论"><a href="#先说结论" class="headerlink" title="先说结论"></a>先说结论</h2><p>做包装和仓储的朋友，大概都遇到过这些问题：</p>
+<ul>
+<li>客户发来一个产品尺寸，问“<strong>你们这个箱子一箱能装多少个？</strong>”——靠经验拍一个数，装少了浪费箱容，装多了到现场塞不下；</li>
+<li>产品是<strong>楔形、大小头的异形件</strong>（比如注塑件、冲压件），大小端怎么交错摆放最省空间，全靠摆实物试；</li>
+<li>箱子堆码几层会不会压垮？单箱重量有没有超纸箱限重？</li>
+<li>租了一个新仓库，货架怎么排、<strong>主通道留多宽、总共能出多少个货位</strong>，要等货架厂出方案，自己心里没底。</li>
+</ul>
+<p>我做了一个微信小程序 <strong>「包装与仓储模拟」</strong>（文末有小程序码，微信扫码即用），把这几件事变成“填几个数字、立刻出结果”：</p>
+<ul>
+<li>📦 <strong>包装方案模拟</strong>：输入产品尺寸和箱型，自动算出 3 种摆放方案的收容数、容积率、建议箱数、单箱重量，并用 <strong>3D 示意图</strong>画出零件在箱子里的摆法，楔形件会画成大头小尾的梯形；</li>
+<li>🏭 <strong>仓储货位计算</strong>：输入仓库、托盘、叉车、货架参数，自动对比多种主通道布局，给出<strong>总货位数、搬运距离、货架占地率和按比例的布局平面图</strong>。</li>
+<li>所有计算<strong>在手机本地完成</strong>，不注册、不登录、不收集数据；图纸尺寸识别是可选项，嫌麻烦直接手填就行。</li>
+</ul>
+<p>下面分别说说适用场景和具体怎么用。</p>]]>
+    </summary>
+    <title>包装与仓储模拟：一款帮你算“一箱装多少、仓库放多少”的微信小程序</title>
+    <updated>2026-10-15T01:00:00.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>杨璐</name>
@@ -98,8 +130,8 @@
       <name>杨璐</name>
     </author>
     <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
-    <category term="战略管理" scheme="https://walker-yl.github.io/tags/%E6%88%98%E7%95%A5%E7%AE%A1%E7%90%86/"/>
     <category term="采购管理" scheme="https://walker-yl.github.io/tags/%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86/"/>
+    <category term="战略管理" scheme="https://walker-yl.github.io/tags/%E6%88%98%E7%95%A5%E7%AE%A1%E7%90%86/"/>
     <id>https://walker-yl.github.io/2025/06/26/%E4%BC%81%E4%B8%9AMake%20or%20Buy%E5%86%B3%E7%AD%96%EF%BC%9A%E6%88%90%E6%9C%AC%E3%80%81%E6%88%98%E7%95%A5%E4%B8%8E%E9%A3%8E%E9%99%A9%E7%9A%84%E5%A4%9A%E7%BB%B4%E6%9D%83%E8%A1%A1%E4%B9%8B%E8%B7%AF/</id>
     <link href="https://walker-yl.github.io/2025/06/26/%E4%BC%81%E4%B8%9AMake%20or%20Buy%E5%86%B3%E7%AD%96%EF%BC%9A%E6%88%90%E6%9C%AC%E3%80%81%E6%88%98%E7%95%A5%E4%B8%8E%E9%A3%8E%E9%99%A9%E7%9A%84%E5%A4%9A%E7%BB%B4%E6%9D%83%E8%A1%A1%E4%B9%8B%E8%B7%AF/"/>
     <published>2025-06-26T01:00:00.000Z</published>
@@ -302,26 +334,6 @@
       <![CDATA[<p>在制造业竞争日益白热化的当下，企业要想在市场中脱颖而出，持续提升生产效率、降低成本是关键。而设备综合效率（Overall Equipment Effectiveness，简称 OEE），正是衡量生产效率的核心指标，它犹如一把精准的标尺，帮助企业洞察生产过程中的潜在问题，挖掘提升效率的关键环节。接下来，我们将深入探讨 OEE 的内涵、计算方法、实际应用以及未来发展趋势。</p>]]>
     </summary>
     <title>深度解析OEE(Overall Equipment Effectiveness)</title>
-    <updated>2025-06-22T01:00:00.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>杨璐</name>
-    </author>
-    <category term="技术分享" scheme="https://walker-yl.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
-    <category term="供应链" scheme="https://walker-yl.github.io/tags/%E4%BE%9B%E5%BA%94%E9%93%BE/"/>
-    <category term="S&amp;OP" scheme="https://walker-yl.github.io/tags/S-OP/"/>
-    <id>
-      <![CDATA[https://walker-yl.github.io/2025/06/22/%E9%94%80%E5%94%AE%E4%B8%8E%E8%BF%90%E8%90%A5%E8%A7%84%E5%88%92%20(S&OP)%EF%BC%9A%E8%BF%9E%E6%8E%A5%E6%88%98%E7%95%A5%E4%B8%8E%E6%89%A7%E8%A1%8C%E7%9A%84%E4%BE%9B%E5%BA%94%E9%93%BE%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E/]]>
-    </id>
-    <link href="https://walker-yl.github.io/2025/06/22/%E9%94%80%E5%94%AE%E4%B8%8E%E8%BF%90%E8%90%A5%E8%A7%84%E5%88%92%20(S&amp;OP)%EF%BC%9A%E8%BF%9E%E6%8E%A5%E6%88%98%E7%95%A5%E4%B8%8E%E6%89%A7%E8%A1%8C%E7%9A%84%E4%BE%9B%E5%BA%94%E9%93%BE%E6%A0%B8%E5%BF%83%E5%BC%95%E6%93%8E/"/>
-    <published>2025-06-22T01:00:00.000Z</published>
-    <summary>
-      <![CDATA[<p>在瞬息万变、竞争激烈的商业环境中，企业如何确保其雄心勃勃的战略蓝图能够有效落地，转化为实实在在的运营成果和财务回报？销售与运营规划 (Sales and Operations Planning, S&amp;OP) 正是解决这一关键挑战的核心管理流程。它远非简单的月度会议，而是一个动态、跨职能、前瞻性的集成业务流程，旨在通过持续的协同，实现供需平衡，优化资源配置，最终驱动业务绩效。<br>S&amp;OP的核心使命：弥合战略与执行的鸿沟</p>]]>
-    </summary>
-    <title>
-      <![CDATA[销售与运营规划 (S&OP)：连接战略与执行的供应链核心引擎]]>
-    </title>
     <updated>2025-06-22T01:00:00.000Z</updated>
   </entry>
   <entry>
